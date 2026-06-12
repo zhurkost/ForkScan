@@ -15,7 +15,8 @@ from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 
-PARALLEL_WORKERS = 1  # set >1 for parallel (HTTP rate-limits apply)
+PARALLEL_WORKERS = 1       # set >1 for parallel (HTTP rate-limits apply)
+REQUEST_DELAY = 0.12       # seconds between POST requests
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
@@ -175,7 +176,7 @@ def parse_sport(ids_file, sport_name, sport_id=None):
         if i % 50 == 0:
             print(f"  {i}/{len(event_ids)} (failed: {failed}, wrong sport: {wrong_sport})")
 
-        time.sleep(0.12)
+        time.sleep(REQUEST_DELAY)
 
     output_file = BASE_DIR / f"events_parsed_{sport_name}.json"
     result = {

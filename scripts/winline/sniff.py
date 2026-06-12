@@ -15,7 +15,10 @@ from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from playwright.sync_api import sync_playwright
 
-PARALLEL_BROWSERS = 1  # set >1 for parallel (may lose events)
+PARALLEL_BROWSERS = 1     # set >1 for parallel (may lose events at high concurrency)
+SCROLL_PASSES = 60        # max scroll iterations
+SCROLL_SLEEP = 0.8        # seconds between scrolls
+SCROLL_STUCK_LIMIT = 10   # consecutive no-new-requests before giving up
 
 CONFIG_PATH = Path(__file__).resolve().parents[2] / "config" / "bookmakers.json"
 BASE_DIR = Path(__file__).resolve().parent
@@ -135,13 +138,13 @@ def _sniff_sport(sport_id, sport_cfg, sport_name, sport_url, name_ru, headless):
         last_count = 0
         stuck = 0
         bounced = False
-        for i in range(60):
+        for i in range(SCROLL_PASSES):
             page.evaluate("window.scrollBy(0, 800)")
-            time.sleep(0.8)
+            time.sleep(SCROLL_SLEEP)
             current = len(log["requests"])
             if current == last_count:
                 stuck += 1
-                if stuck >= 10:
+                if stuck >= SCROLL_STUCK_LIMIT:
                     if not bounced:
                         # Bounce up then down to trigger more lazy-load
                         page.evaluate("window.scrollBy(0, -2000)")
