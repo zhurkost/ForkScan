@@ -134,16 +134,27 @@ def _sniff_sport(sport_id, sport_cfg, sport_name, sport_url, name_ru, headless):
         print(f"[sniff:{sport_name}] Scrolling...")
         last_count = 0
         stuck = 0
-        for i in range(40):
+        bounced = False
+        for i in range(60):
             page.evaluate("window.scrollBy(0, 800)")
-            time.sleep(1.0)
+            time.sleep(0.8)
             current = len(log["requests"])
             if current == last_count:
                 stuck += 1
-                if stuck >= 6:
-                    break
+                if stuck >= 10:
+                    if not bounced:
+                        # Bounce up then down to trigger more lazy-load
+                        page.evaluate("window.scrollBy(0, -2000)")
+                        time.sleep(0.5)
+                        page.evaluate("window.scrollBy(0, 2000)")
+                        time.sleep(1.0)
+                        stuck = 0
+                        bounced = True
+                    else:
+                        break
             else:
                 stuck = 0
+                bounced = False
             last_count = current
 
         page.wait_for_timeout(3_000)
