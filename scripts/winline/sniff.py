@@ -12,7 +12,10 @@ import sys
 import time
 from pathlib import Path
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from playwright.sync_api import sync_playwright
+
+PARALLEL_BROWSERS = 10  # change to adjust concurrency
 
 CONFIG_PATH = Path(__file__).resolve().parents[2] / "config" / "bookmakers.json"
 BASE_DIR = Path(__file__).resolve().parent
@@ -86,6 +89,13 @@ def sniff_sport(sport_id: str, sport_cfg: dict, headless: bool):
     sport_url = sport_cfg.get("url") or f"https://winline.by/sport/{sport_id}"
     name_ru = sport_cfg.get("name_ru", sport_name)
 
+    try:
+        _sniff_sport(sport_id, sport_cfg, sport_name, sport_url, name_ru, headless)
+    except Exception as e:
+        print(f"[sniff:{sport_name}] FAILED: {e}")
+
+
+def _sniff_sport(sport_id, sport_cfg, sport_name, sport_url, name_ru, headless):
     print(f"[sniff:{sport_name}] {name_ru} -> {sport_url}")
 
     log = {"requests": [], "responses": []}
@@ -190,9 +200,15 @@ def main():
         print("No sports found.")
         return
 
-    print(f"Sniffing {len(sports)} sport(s), headless={headless}")
-    for sport_id, sport_cfg in sports:
-        sniff_sport(sport_id, sport_cfg, headless)
+    print(f"Sniffing {len(sports)} sport(s), headless={headless}, parallel={PARALLEL_BROWSERS}")
+    with ThreadPoolExecutor(max_workers=PARALLEL_BROWSERS) as executor:
+        futures = {executor.submit(sniff_sport, sid, cfg, headless): sid for sid, cfg in sports}
+        for future in as_completed(futures):
+            sid = futures[future]
+            try:
+                future.result()
+            except Exception:
+                pass  # logged inside sniff_sport
 
 
 if __name__ == "__main__":
