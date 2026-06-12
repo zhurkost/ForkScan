@@ -18,10 +18,12 @@ venv/
 data/*
 !data/.gitkeep
 !data/teams.json
+!data/arbs.json
 *.bin
 *network_log*.json
 *events_parsed*.json
 *event_ids*.json
+*check_*.py
 
 # Playwright
 playwright-report/

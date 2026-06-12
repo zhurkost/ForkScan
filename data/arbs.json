@@ -1,0 +1,1610 @@
+{
+  "meta": {
+    "generated_at": "2026-06-12T08:28:24.045725+00:00",
+    "sources": [
+      "winline",
+      "fonbet"
+    ]
+  },
+  "stats": {
+    "matched_events": 59,
+    "unmatched_events": 269,
+    "total_arbs": 59,
+    "positive_yield": 0
+  },
+  "arbs": [
+    {
+      "event_key": "team_00397|team_00398|20681",
+      "team_home": "Арсенал",
+      "team_away": "Манчестер Сити",
+      "scheduled": 1786888800,
+      "winline_odds": {
+        "1": 2.15,
+        "x": 3.55,
+        "2": 3.1
+      },
+      "fonbet_odds": {
+        "1": 2.2,
+        "x": 3.65,
+        "2": 3.15
+      },
+      "best_odds": {
+        "1": 2.2,
+        "x": 3.65,
+        "2": 3.15
+      },
+      "yield_pct": -4.6,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "fonbet",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00597|team_00598|20616",
+      "team_home": "Ферримид Бэйс",
+      "team_away": "Кашмир Техникал",
+      "scheduled": 1781248500,
+      "winline_odds": {
+        "1": 15,
+        "x": 5.5,
+        "2": 1.15
+      },
+      "fonbet_odds": {
+        "1": 10.5,
+        "x": 5.2,
+        "2": 1.25
+      },
+      "best_odds": {
+        "1": 15,
+        "x": 5.5,
+        "2": 1.25
+      },
+      "yield_pct": -4.85,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00161|team_00162|20618",
+      "team_home": "Малага",
+      "team_away": "Альмерия",
+      "scheduled": 1781463600,
+      "winline_odds": {
+        "1": 2.23,
+        "x": 3.15,
+        "2": 3.15
+      },
+      "fonbet_odds": {
+        "1": 2.3,
+        "x": 3.0,
+        "2": 3.35
+      },
+      "best_odds": {
+        "1": 2.3,
+        "x": 3.15,
+        "2": 3.35
+      },
+      "yield_pct": -5.08,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00451|team_00452|20617",
+      "team_home": "Филкир Рейкьявик",
+      "team_away": "Гротта",
+      "scheduled": 1781359200,
+      "winline_odds": {
+        "1": 1.54,
+        "x": 4.3,
+        "2": 4.8
+      },
+      "fonbet_odds": {
+        "1": 1.45,
+        "x": 4.3,
+        "2": 5.4
+      },
+      "best_odds": {
+        "1": 1.54,
+        "x": 4.3,
+        "2": 5.4
+      },
+      "yield_pct": -6.71,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00503|team_00504|20616",
+      "team_home": "Флора Таллин (ж)",
+      "team_away": "Харью Лаагри (ж)",
+      "scheduled": 1781280000,
+      "winline_odds": {
+        "1": 1.05,
+        "x": 12,
+        "2": 23
+      },
+      "fonbet_odds": {
+        "1": 1.04,
+        "x": 10.0,
+        "2": 29.0
+      },
+      "best_odds": {
+        "1": 1.05,
+        "x": 12,
+        "2": 29.0
+      },
+      "yield_pct": -7.02,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00185|team_00186|20617",
+      "team_home": "Мортон Сити Эксельсиор (ж)",
+      "team_away": "Палм Бич (ж)",
+      "scheduled": 1781341200,
+      "winline_odds": {
+        "1": 3.4,
+        "x": 4,
+        "2": 1.8
+      },
+      "fonbet_odds": {
+        "1": 3.0,
+        "x": 4.5,
+        "2": 1.8
+      },
+      "best_odds": {
+        "1": 3.4,
+        "x": 4.5,
+        "2": 1.8
+      },
+      "yield_pct": -7.19,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00615|team_00616|20616",
+      "team_home": "Наполи (Wboy)",
+      "team_away": "Ювентус (Kraftvk)",
+      "scheduled": 1781251620,
+      "winline_odds": {
+        "1": 2.27,
+        "x": 4.72,
+        "2": 2.34
+      },
+      "fonbet_odds": {
+        "1": 2.3,
+        "x": 4.7,
+        "2": 2.35
+      },
+      "best_odds": {
+        "1": 2.3,
+        "x": 4.72,
+        "2": 2.35
+      },
+      "yield_pct": -7.22,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00063|team_00064|20616",
+      "team_home": "Аделаида Кометс",
+      "team_away": "Вест Аделаида",
+      "scheduled": 1781262000,
+      "winline_odds": {
+        "1": 2.55,
+        "x": 3.6,
+        "2": 2.46
+      },
+      "fonbet_odds": {
+        "1": 2.45,
+        "x": 3.65,
+        "2": 2.35
+      },
+      "best_odds": {
+        "1": 2.55,
+        "x": 3.65,
+        "2": 2.46
+      },
+      "yield_pct": -7.26,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00255|team_00256|20616",
+      "team_home": "Вархауг",
+      "team_away": "Викинг 2",
+      "scheduled": 1781283600,
+      "winline_odds": {
+        "1": 2.23,
+        "x": 3.9,
+        "2": 2.65
+      },
+      "fonbet_odds": {
+        "1": 2.2,
+        "x": 4.05,
+        "2": 2.45
+      },
+      "best_odds": {
+        "1": 2.23,
+        "x": 4.05,
+        "2": 2.65
+      },
+      "yield_pct": -7.27,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00133|team_00134|20616",
+      "team_home": "Аделаида Кометс (ж)",
+      "team_away": "Вест Аделаида (ж)",
+      "scheduled": 1781253900,
+      "winline_odds": {
+        "1": 6.4,
+        "x": 5.2,
+        "2": 1.38
+      },
+      "fonbet_odds": {
+        "1": 6.1,
+        "x": 5.0,
+        "2": 1.35
+      },
+      "best_odds": {
+        "1": 6.4,
+        "x": 5.2,
+        "2": 1.38
+      },
+      "yield_pct": -7.32,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00371|team_00372|20618",
+      "team_home": "Пайсанду",
+      "team_away": "Пласа Колония",
+      "scheduled": 1781470800,
+      "winline_odds": {
+        "1": 4.1,
+        "x": 3.05,
+        "2": 1.95
+      },
+      "fonbet_odds": {
+        "1": 4.3,
+        "x": 3.05,
+        "2": 1.82
+      },
+      "best_odds": {
+        "1": 4.3,
+        "x": 3.05,
+        "2": 1.95
+      },
+      "yield_pct": -7.32,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00181|team_00182|20617",
+      "team_home": "Велес",
+      "team_away": "Ленинградец",
+      "scheduled": 1781355600,
+      "winline_odds": {
+        "1": 1.79,
+        "x": 3.75,
+        "2": 3.6
+      },
+      "fonbet_odds": {
+        "1": 1.8,
+        "x": 3.95,
+        "2": 3.75
+      },
+      "best_odds": {
+        "1": 1.8,
+        "x": 3.95,
+        "2": 3.75
+      },
+      "yield_pct": -7.54,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "fonbet",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00153|team_00154|20616",
+      "team_home": "Аль-Салмия",
+      "team_away": "Аль-Кувейт",
+      "scheduled": 1781286300,
+      "winline_odds": {
+        "1": 6,
+        "x": 4.2,
+        "2": 1.49
+      },
+      "fonbet_odds": {
+        "1": 5.8,
+        "x": 3.95,
+        "2": 1.45
+      },
+      "best_odds": {
+        "1": 6,
+        "x": 4.2,
+        "2": 1.49
+      },
+      "yield_pct": -7.59,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00171|team_00172|20616",
+      "team_home": "Аль-Наср Эль-Фарвания",
+      "team_away": "Казма",
+      "scheduled": 1781286300,
+      "winline_odds": {
+        "1": 3.5,
+        "x": 3.3,
+        "2": 2.04
+      },
+      "fonbet_odds": {
+        "1": 3.4,
+        "x": 3.2,
+        "2": 2.0
+      },
+      "best_odds": {
+        "1": 3.5,
+        "x": 3.3,
+        "2": 2.04
+      },
+      "yield_pct": -7.89,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00175|team_00176|20617",
+      "team_home": "Торпедо Миасс",
+      "team_away": "Родина 2",
+      "scheduled": 1781355600,
+      "winline_odds": {
+        "1": 2.47,
+        "x": 3,
+        "2": 2.75
+      },
+      "fonbet_odds": {
+        "1": 2.5,
+        "x": 3.1,
+        "2": 2.8
+      },
+      "best_odds": {
+        "1": 2.5,
+        "x": 3.1,
+        "2": 2.8
+      },
+      "yield_pct": -7.97,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "fonbet",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00209|team_00210|20617",
+      "team_home": "Чайка 2",
+      "team_away": "Нарт Черкесск",
+      "scheduled": 1781359200,
+      "winline_odds": {
+        "1": 20,
+        "x": 6,
+        "2": 1.13
+      },
+      "fonbet_odds": {
+        "1": 23.0,
+        "x": 5.1,
+        "2": 1.15
+      },
+      "best_odds": {
+        "1": 23.0,
+        "x": 6,
+        "2": 1.15
+      },
+      "yield_pct": -7.97,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00495|team_00496|20617",
+      "team_home": "Фрам (ж)",
+      "team_away": "Гриндавик/Ньярдвик (ж)",
+      "scheduled": 1781359200,
+      "winline_odds": {
+        "1": 2.6,
+        "x": 3.6,
+        "2": 2.31
+      },
+      "fonbet_odds": {
+        "1": 2.5,
+        "x": 3.8,
+        "2": 2.2
+      },
+      "best_odds": {
+        "1": 2.6,
+        "x": 3.8,
+        "2": 2.31
+      },
+      "yield_pct": -8.07,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00319|team_00320|20616",
+      "team_home": "Ферст Вена 2",
+      "team_away": "Ред Стар Пенцинг",
+      "scheduled": 1781280000,
+      "winline_odds": {
+        "1": 2.17,
+        "x": 3.8,
+        "2": 2.8
+      },
+      "fonbet_odds": {
+        "1": 2.08,
+        "x": 3.75,
+        "2": 2.75
+      },
+      "best_odds": {
+        "1": 2.17,
+        "x": 3.8,
+        "2": 2.8
+      },
+      "yield_pct": -8.11,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00577|team_00578|20616",
+      "team_home": "Хан-Тенгри",
+      "team_away": "Шахтер Караганда",
+      "scheduled": 1781272800,
+      "winline_odds": {
+        "1": 5.15,
+        "x": 4.63,
+        "2": 1.49
+      },
+      "fonbet_odds": {
+        "1": 5.0,
+        "x": 4.5,
+        "2": 1.45
+      },
+      "best_odds": {
+        "1": 5.15,
+        "x": 4.63,
+        "2": 1.49
+      },
+      "yield_pct": -8.13,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00065|team_00066|20616",
+      "team_home": "Кэмпбеллтаун Сити",
+      "team_away": "Вест Торренс Биркалла",
+      "scheduled": 1781258400,
+      "winline_odds": {
+        "1": 2.75,
+        "x": 3.7,
+        "2": 2.23
+      },
+      "fonbet_odds": {
+        "1": 2.75,
+        "x": 3.65,
+        "2": 2.12
+      },
+      "best_odds": {
+        "1": 2.75,
+        "x": 3.7,
+        "2": 2.23
+      },
+      "yield_pct": -8.23,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00243|team_00244|20617",
+      "team_home": "Шумбрат Саранск",
+      "team_away": "Квант Обнинск",
+      "scheduled": 1781359200,
+      "winline_odds": {
+        "1": 1.15,
+        "x": 6.6,
+        "2": 13
+      },
+      "fonbet_odds": {
+        "1": 1.15,
+        "x": 5.7,
+        "2": 16.0
+      },
+      "best_odds": {
+        "1": 1.15,
+        "x": 6.6,
+        "2": 16.0
+      },
+      "yield_pct": -8.36,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00195|team_00196|20617",
+      "team_home": "Севастополь",
+      "team_away": "Победа Хасавюрт",
+      "scheduled": 1781359200,
+      "winline_odds": {
+        "1": 1.32,
+        "x": 4.4,
+        "2": 8.4
+      },
+      "fonbet_odds": {
+        "1": 1.3,
+        "x": 4.0,
+        "2": 10.0
+      },
+      "best_odds": {
+        "1": 1.32,
+        "x": 4.4,
+        "2": 10.0
+      },
+      "yield_pct": -8.48,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00603|team_00604|20617",
+      "team_home": "Кларенс Зебрас 2",
+      "team_away": "Саут Хобарт 2",
+      "scheduled": 1781333100,
+      "winline_odds": {
+        "1": 9,
+        "x": 7.2,
+        "2": 1.18
+      },
+      "fonbet_odds": {
+        "1": 10.0,
+        "x": 7.1,
+        "2": 1.15
+      },
+      "best_odds": {
+        "1": 10.0,
+        "x": 7.2,
+        "2": 1.18
+      },
+      "yield_pct": -8.63,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00229|team_00230|20617",
+      "team_home": "Искра Смоленск",
+      "team_away": "Луки-Энергия",
+      "scheduled": 1781359200,
+      "winline_odds": {
+        "1": 5.8,
+        "x": 3.8,
+        "2": 1.51
+      },
+      "fonbet_odds": {
+        "1": 6.2,
+        "x": 3.6,
+        "2": 1.48
+      },
+      "best_odds": {
+        "1": 6.2,
+        "x": 3.8,
+        "2": 1.51
+      },
+      "yield_pct": -8.67,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00137|team_00138|20617",
+      "team_home": "Вирджиния Юнайтед",
+      "team_away": "Саутсайд Иглз",
+      "scheduled": 1781341200,
+      "winline_odds": {
+        "1": 1.86,
+        "x": 4.2,
+        "2": 3.1
+      },
+      "fonbet_odds": {
+        "1": 1.78,
+        "x": 4.3,
+        "2": 3.15
+      },
+      "best_odds": {
+        "1": 1.86,
+        "x": 4.3,
+        "2": 3.15
+      },
+      "yield_pct": -8.77,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00081|team_00082|20617",
+      "team_home": "Кларенс Зебрас",
+      "team_away": "Саут Хобарт",
+      "scheduled": 1781325000,
+      "winline_odds": {
+        "1": 12,
+        "x": 7.6,
+        "2": 1.13
+      },
+      "fonbet_odds": {
+        "1": 14.0,
+        "x": 7.0,
+        "2": 1.11
+      },
+      "best_odds": {
+        "1": 14.0,
+        "x": 7.6,
+        "2": 1.13
+      },
+      "yield_pct": -8.8,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00505|team_00506|20617",
+      "team_home": "Аделаида Блю Иглз",
+      "team_away": "Солсбери Юнайтед",
+      "scheduled": 1781328600,
+      "winline_odds": {
+        "1": 1.51,
+        "x": 4.4,
+        "2": 4.8
+      },
+      "fonbet_odds": {
+        "1": 1.47,
+        "x": 4.6,
+        "2": 4.7
+      },
+      "best_odds": {
+        "1": 1.51,
+        "x": 4.6,
+        "2": 4.8
+      },
+      "yield_pct": -8.8,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00059|team_00060|20618",
+      "team_home": "Химнасия Ла-Плата (ж)",
+      "team_away": "Ньюэллс Олд Бойз (ж)",
+      "scheduled": 1781452800,
+      "winline_odds": {
+        "1": 1.72,
+        "x": 3.3,
+        "2": 4.7
+      },
+      "fonbet_odds": {
+        "1": 1.65,
+        "x": 3.4,
+        "2": 4.7
+      },
+      "best_odds": {
+        "1": 1.72,
+        "x": 3.4,
+        "2": 4.7
+      },
+      "yield_pct": -8.83,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00367|team_00368|20618",
+      "team_home": "Ривер Плейт Монтевидео",
+      "team_away": "Серрито",
+      "scheduled": 1781445600,
+      "winline_odds": {
+        "1": 2.18,
+        "x": 3.15,
+        "2": 3.2
+      },
+      "fonbet_odds": {
+        "1": 2.17,
+        "x": 3.05,
+        "2": 3.1
+      },
+      "best_odds": {
+        "1": 2.18,
+        "x": 3.15,
+        "2": 3.2
+      },
+      "yield_pct": -8.87,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00551|team_00552|20618",
+      "team_home": "Мейтленд (ж)",
+      "team_away": "Адамстаун Роузбад (ж)",
+      "scheduled": 1781398800,
+      "winline_odds": {
+        "1": 1.03,
+        "x": 11,
+        "2": 25
+      },
+      "fonbet_odds": {
+        "1": 1.03,
+        "x": 10.5,
+        "2": 37.0
+      },
+      "best_odds": {
+        "1": 1.03,
+        "x": 11,
+        "2": 37.0
+      },
+      "yield_pct": -8.88,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00241|team_00242|20617",
+      "team_home": "Авангард Курск",
+      "team_away": "Рязань",
+      "scheduled": 1781344800,
+      "winline_odds": {
+        "1": 2.55,
+        "x": 3,
+        "2": 2.7
+      },
+      "fonbet_odds": {
+        "1": 2.45,
+        "x": 2.95,
+        "2": 2.75
+      },
+      "best_odds": {
+        "1": 2.55,
+        "x": 3,
+        "2": 2.75
+      },
+      "yield_pct": -8.91,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00235|team_00236|20617",
+      "team_home": "Зенит Пенза",
+      "team_away": "Металлург Липецк",
+      "scheduled": 1781355600,
+      "winline_odds": {
+        "1": 17,
+        "x": 5.8,
+        "2": 1.15
+      },
+      "fonbet_odds": {
+        "1": 21.0,
+        "x": 5.4,
+        "2": 1.14
+      },
+      "best_odds": {
+        "1": 21.0,
+        "x": 5.8,
+        "2": 1.15
+      },
+      "yield_pct": -8.96,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00593|team_00594|20618",
+      "team_home": "Логан Рус",
+      "team_away": "Норт Лейкс Юнайтед",
+      "scheduled": 1781413200,
+      "winline_odds": {
+        "1": 3.3,
+        "x": 4.2,
+        "2": 1.79
+      },
+      "fonbet_odds": {
+        "1": 3.35,
+        "x": 4.3,
+        "2": 1.73
+      },
+      "best_odds": {
+        "1": 3.35,
+        "x": 4.3,
+        "2": 1.79
+      },
+      "yield_pct": -8.97,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00087|team_00088|20617",
+      "team_home": "Куинбиан Сити",
+      "team_away": "Монаро Пантерс",
+      "scheduled": 1781326800,
+      "winline_odds": {
+        "1": 3.4,
+        "x": 4,
+        "2": 1.8
+      },
+      "fonbet_odds": {
+        "1": 3.3,
+        "x": 4.15,
+        "2": 1.75
+      },
+      "best_odds": {
+        "1": 3.4,
+        "x": 4.15,
+        "2": 1.8
+      },
+      "yield_pct": -9.06,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00119|team_00120|20617",
+      "team_home": "Вирджиния Юнайтед (ж)",
+      "team_away": "Логан Лайтнинг (ж)",
+      "scheduled": 1781334000,
+      "winline_odds": {
+        "1": 2.5,
+        "x": 3.65,
+        "2": 2.32
+      },
+      "fonbet_odds": {
+        "1": 2.4,
+        "x": 3.75,
+        "2": 2.35
+      },
+      "best_odds": {
+        "1": 2.5,
+        "x": 3.75,
+        "2": 2.35
+      },
+      "yield_pct": -9.22,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00269|team_00270|20617",
+      "team_home": "Фулхэм Юнайтед",
+      "team_away": "Аделаида Виктори",
+      "scheduled": 1781328600,
+      "winline_odds": {
+        "1": 2.08,
+        "x": 3.65,
+        "2": 2.9
+      },
+      "fonbet_odds": {
+        "1": 2.03,
+        "x": 3.75,
+        "2": 2.85
+      },
+      "best_odds": {
+        "1": 2.08,
+        "x": 3.75,
+        "2": 2.9
+      },
+      "yield_pct": -9.23,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00091|team_00092|20617",
+      "team_home": "Адамстаун Роузбад",
+      "team_away": "Бродмидоу Мэджик",
+      "scheduled": 1781323200,
+      "winline_odds": {
+        "1": 5.4,
+        "x": 4.6,
+        "2": 1.44
+      },
+      "fonbet_odds": {
+        "1": 5.1,
+        "x": 4.7,
+        "2": 1.42
+      },
+      "best_odds": {
+        "1": 5.4,
+        "x": 4.7,
+        "2": 1.44
+      },
+      "yield_pct": -9.24,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00537|team_00538|20617",
+      "team_home": "Лонсестон Сити (ж)",
+      "team_away": "Таруна (ж)",
+      "scheduled": 1781333100,
+      "winline_odds": {
+        "1": 1.91,
+        "x": 4.1,
+        "2": 3.05
+      },
+      "fonbet_odds": {
+        "1": 1.9,
+        "x": 4.15,
+        "2": 2.9
+      },
+      "best_odds": {
+        "1": 1.91,
+        "x": 4.15,
+        "2": 3.05
+      },
+      "yield_pct": -9.24,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00647|team_00648|20617",
+      "team_home": "Шанхай Сегенда",
+      "team_away": "Тайань Тянькуан",
+      "scheduled": 1781337600,
+      "winline_odds": {
+        "1": 3.7,
+        "x": 3,
+        "2": 2.03
+      },
+      "fonbet_odds": {
+        "1": 3.75,
+        "x": 2.95,
+        "2": 1.98
+      },
+      "best_odds": {
+        "1": 3.75,
+        "x": 3,
+        "2": 2.03
+      },
+      "yield_pct": -9.26,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00499|team_00500|20617",
+      "team_home": "Брейдаблик (ж)",
+      "team_away": "Стьярнан (ж)",
+      "scheduled": 1781359200,
+      "winline_odds": {
+        "1": 1.43,
+        "x": 4.7,
+        "2": 5.4
+      },
+      "fonbet_odds": {
+        "1": 1.4,
+        "x": 4.8,
+        "2": 5.2
+      },
+      "best_odds": {
+        "1": 1.43,
+        "x": 4.8,
+        "2": 5.4
+      },
+      "yield_pct": -9.28,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00215|team_00216|20616",
+      "team_home": "Акранес",
+      "team_away": "Викингур Рейкьявик",
+      "scheduled": 1781295300,
+      "winline_odds": {
+        "1": 5.8,
+        "x": 5.4,
+        "2": 1.36
+      },
+      "fonbet_odds": {
+        "1": 5.7,
+        "x": 5.2,
+        "2": 1.35
+      },
+      "best_odds": {
+        "1": 5.8,
+        "x": 5.4,
+        "2": 1.36
+      },
+      "yield_pct": -9.29,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00287|team_00288|20617",
+      "team_home": "Гленорчи Найтс (ж)",
+      "team_away": "Лонсестон Юнайтед (ж)",
+      "scheduled": 1781316900,
+      "winline_odds": {
+        "1": 2.03,
+        "x": 3.85,
+        "2": 2.85
+      },
+      "fonbet_odds": {
+        "1": 2.0,
+        "x": 4.0,
+        "2": 2.8
+      },
+      "best_odds": {
+        "1": 2.03,
+        "x": 4.0,
+        "2": 2.85
+      },
+      "yield_pct": -9.35,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00267|team_00268|20617",
+      "team_home": "Люсенг",
+      "team_away": "Оддер",
+      "scheduled": 1781352000,
+      "winline_odds": {
+        "1": 2.26,
+        "x": 3.7,
+        "2": 2.6
+      },
+      "fonbet_odds": {
+        "1": 2.25,
+        "x": 3.75,
+        "2": 2.55
+      },
+      "best_odds": {
+        "1": 2.26,
+        "x": 3.75,
+        "2": 2.6
+      },
+      "yield_pct": -9.38,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00625|team_00626|20617",
+      "team_home": "Кэмпбеллтаун Сити (ж)",
+      "team_away": "Вест Торренс Биркалла (ж)",
+      "scheduled": 1781335800,
+      "winline_odds": {
+        "1": 2.7,
+        "x": 3.85,
+        "2": 2.14
+      },
+      "fonbet_odds": {
+        "1": 2.65,
+        "x": 3.9,
+        "2": 2.1
+      },
+      "best_odds": {
+        "1": 2.7,
+        "x": 3.9,
+        "2": 2.14
+      },
+      "yield_pct": -9.41,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00199|team_00200|20617",
+      "team_home": "Кызылташ",
+      "team_away": "Нефтяник Избербаш",
+      "scheduled": 1781359200,
+      "winline_odds": {
+        "1": 1.22,
+        "x": 4.8,
+        "2": 14
+      },
+      "fonbet_odds": {
+        "1": 1.2,
+        "x": 4.6,
+        "2": 15.0
+      },
+      "best_odds": {
+        "1": 1.22,
+        "x": 4.8,
+        "2": 15.0
+      },
+      "yield_pct": -9.47,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00147|team_00148|20618",
+      "team_home": "Алверстон",
+      "team_away": "Лонсестон Сити",
+      "scheduled": 1781411400,
+      "winline_odds": {
+        "1": 21,
+        "x": 8.2,
+        "2": 1.08
+      },
+      "fonbet_odds": {
+        "1": 20.0,
+        "x": 7.6,
+        "2": 1.07
+      },
+      "best_odds": {
+        "1": 21,
+        "x": 8.2,
+        "2": 1.08
+      },
+      "yield_pct": -9.55,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00089|team_00090|20617",
+      "team_home": "О'Коннор Найтс",
+      "team_away": "Таггеранонг Юнайтед",
+      "scheduled": 1781326800,
+      "winline_odds": {
+        "1": 2.55,
+        "x": 3.95,
+        "2": 2.19
+      },
+      "fonbet_odds": {
+        "1": 2.55,
+        "x": 4.05,
+        "2": 2.1
+      },
+      "best_odds": {
+        "1": 2.55,
+        "x": 4.05,
+        "2": 2.19
+      },
+      "yield_pct": -9.57,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00511|team_00512|20617",
+      "team_home": "Аль-Тадамон",
+      "team_away": "Аль-Фехахил",
+      "scheduled": 1781372700,
+      "winline_odds": {
+        "1": 2.7,
+        "x": 3.1,
+        "2": 2.45
+      },
+      "fonbet_odds": {
+        "1": 2.65,
+        "x": 3.15,
+        "2": 2.4
+      },
+      "best_odds": {
+        "1": 2.7,
+        "x": 3.15,
+        "2": 2.45
+      },
+      "yield_pct": -9.6,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00457|team_00458|20617",
+      "team_home": "Самгурали Цхалтубо",
+      "team_away": "Торпедо Кутаиси",
+      "scheduled": 1781370000,
+      "winline_odds": {
+        "1": 3.6,
+        "x": 3.45,
+        "2": 1.89
+      },
+      "fonbet_odds": {
+        "1": 3.6,
+        "x": 3.45,
+        "2": 1.85
+      },
+      "best_odds": {
+        "1": 3.6,
+        "x": 3.45,
+        "2": 1.89
+      },
+      "yield_pct": -9.67,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00213|team_00214|20617",
+      "team_home": "Камден Тайгерс",
+      "team_away": "Бэнкстаун Юнайтед",
+      "scheduled": 1781341200,
+      "winline_odds": {
+        "1": 2.45,
+        "x": 3.95,
+        "2": 2.28
+      },
+      "fonbet_odds": {
+        "1": 2.45,
+        "x": 4.0,
+        "2": 2.2
+      },
+      "best_odds": {
+        "1": 2.45,
+        "x": 4.0,
+        "2": 2.28
+      },
+      "yield_pct": -9.68,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00621|team_00622|20618",
+      "team_home": "Химик Дзержинск",
+      "team_away": "Ижевск",
+      "scheduled": 1781449200,
+      "winline_odds": {
+        "1": 1.34,
+        "x": 5,
+        "2": 6.4
+      },
+      "fonbet_odds": {
+        "1": 1.35,
+        "x": 5.0,
+        "2": 5.9
+      },
+      "best_odds": {
+        "1": 1.35,
+        "x": 5,
+        "2": 6.4
+      },
+      "yield_pct": -9.7,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00477|team_00478|20617",
+      "team_home": "Гоулберн Вэлли Санс",
+      "team_away": "Истерн Лайонс",
+      "scheduled": 1781334000,
+      "winline_odds": {
+        "1": 1.61,
+        "x": 4.2,
+        "2": 4.2
+      },
+      "fonbet_odds": {
+        "1": 1.6,
+        "x": 4.15,
+        "2": 4.15
+      },
+      "best_odds": {
+        "1": 1.61,
+        "x": 4.2,
+        "2": 4.2
+      },
+      "yield_pct": -9.73,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00083|team_00084|20617",
+      "team_home": "Гленорчи Найтс",
+      "team_away": "Риверсайд Олимпик",
+      "scheduled": 1781333100,
+      "winline_odds": {
+        "1": 1.81,
+        "x": 4,
+        "2": 3.35
+      },
+      "fonbet_odds": {
+        "1": 1.77,
+        "x": 4.05,
+        "2": 3.35
+      },
+      "best_odds": {
+        "1": 1.81,
+        "x": 4.05,
+        "2": 3.35
+      },
+      "yield_pct": -9.79,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00263|team_00264|20617",
+      "team_home": "Херсхольм-Уссерод",
+      "team_away": "Несбю",
+      "scheduled": 1781352000,
+      "winline_odds": {
+        "1": 3.05,
+        "x": 4.1,
+        "2": 1.89
+      },
+      "fonbet_odds": {
+        "1": 2.95,
+        "x": 4.0,
+        "2": 1.9
+      },
+      "best_odds": {
+        "1": 3.05,
+        "x": 4.1,
+        "2": 1.9
+      },
+      "yield_pct": -9.81,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "fonbet"
+      }
+    },
+    {
+      "event_key": "team_00471|team_00472|20617",
+      "team_home": "Малверн Сити",
+      "team_away": "Эссендон Роялс",
+      "scheduled": 1781334000,
+      "winline_odds": {
+        "1": 2.15,
+        "x": 3.75,
+        "2": 2.7
+      },
+      "fonbet_odds": {
+        "1": 2.1,
+        "x": 3.8,
+        "2": 2.65
+      },
+      "best_odds": {
+        "1": 2.15,
+        "x": 3.8,
+        "2": 2.7
+      },
+      "yield_pct": -9.86,
+      "best_sources": {
+        "1": "winline",
+        "x": "fonbet",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00613|team_00614|20618",
+      "team_home": "Динамо Барнаул",
+      "team_away": "Крылья Советов 2",
+      "scheduled": 1781431200,
+      "winline_odds": {
+        "1": 7,
+        "x": 4.1,
+        "2": 1.4
+      },
+      "fonbet_odds": {
+        "1": 7.1,
+        "x": 4.05,
+        "2": 1.38
+      },
+      "best_odds": {
+        "1": 7.1,
+        "x": 4.1,
+        "2": 1.4
+      },
+      "yield_pct": -9.9,
+      "best_sources": {
+        "1": "fonbet",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00623|team_00624|20618",
+      "team_home": "Челябинск 2",
+      "team_away": "КДВ Томск",
+      "scheduled": 1781438400,
+      "winline_odds": {
+        "1": 7.4,
+        "x": 3.9,
+        "2": 1.41
+      },
+      "fonbet_odds": {
+        "1": 7.3,
+        "x": 3.8,
+        "2": 1.4
+      },
+      "best_odds": {
+        "1": 7.4,
+        "x": 3.9,
+        "2": 1.41
+      },
+      "yield_pct": -10.08,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00201|team_00202|20617",
+      "team_home": "ПСК Динская",
+      "team_away": "Астрахань",
+      "scheduled": 1781359200,
+      "winline_odds": {
+        "1": 1.83,
+        "x": 3.05,
+        "2": 4.4
+      },
+      "fonbet_odds": {
+        "1": 1.8,
+        "x": 3.05,
+        "2": 4.4
+      },
+      "best_odds": {
+        "1": 1.83,
+        "x": 3.05,
+        "2": 4.4
+      },
+      "yield_pct": -10.16,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    },
+    {
+      "event_key": "team_00619|team_00620|20617",
+      "team_home": "Флиндерс Юнайтед (ж)",
+      "team_away": "Аделаида Юниверсити (ж)",
+      "scheduled": 1781328600,
+      "winline_odds": {
+        "1": 6.2,
+        "x": 5,
+        "2": 1.35
+      },
+      "fonbet_odds": {
+        "1": 6.2,
+        "x": 4.9,
+        "2": 1.35
+      },
+      "best_odds": {
+        "1": 6.2,
+        "x": 5,
+        "2": 1.35
+      },
+      "yield_pct": -10.2,
+      "best_sources": {
+        "1": "winline",
+        "x": "winline",
+        "2": "winline"
+      }
+    }
+  ]
+}
