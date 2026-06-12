@@ -102,18 +102,23 @@ def export_mapping() -> dict:
 
 def import_from_bookmaker(bookmaker: str, teams_data: list[dict]) -> dict:
     data = load_teams()
-    stats = {"new": 0, "existing": 0, "cross_matched": 0}
+    stats = {"new": 0, "existing": 0, "cross_matched": 0, "fuzzy_matched": 0}
 
-    # Build lookup of all existing names by canonical
+    # Build lookup of all existing names by canonical + fuzzy canonical
     name_to_id = {}
+    fuzzy_to_id = {}
     for team_id, team in data["teams"].items():
         canonical_clean = _clean(team["canonical_name"])
         if canonical_clean not in name_to_id:
             name_to_id[canonical_clean] = team_id
+        fuzzy_clean = _fuzzy_name(team["canonical_name"])
+        if fuzzy_clean and fuzzy_clean not in fuzzy_to_id:
+            fuzzy_to_id[fuzzy_clean] = team_id
 
     for t in teams_data:
         name = t["name"]
         name_clean = _clean(name)
+        sport = t.get("sport", "unknown")
 
         # 1: Already known for this bookmaker
         existing_id = find_by_bookmaker(bookmaker, name)
@@ -121,19 +126,34 @@ def import_from_bookmaker(bookmaker: str, teams_data: list[dict]) -> dict:
             stats["existing"] += 1
             continue
 
-        # 2: Cross-match — same name exists from another bookmaker
+        # 2: Cross-match — exact canonical name match
         cross_id = name_to_id.get(name_clean)
         if cross_id and data["teams"][cross_id]["names"].get(bookmaker) is None:
             data["teams"][cross_id]["names"][bookmaker] = name
             stats["cross_matched"] += 1
             continue
 
-        # 3: New team
+        # 3: Fuzzy cross-match — normalize names (strip ФК/FC/City etc.)
+        fuzzy_clean = _fuzzy_name(name)
+        cross_id = fuzzy_to_id.get(fuzzy_clean)
+        if (cross_id and
+                data["teams"][cross_id]["names"].get(bookmaker) is None and
+                data["teams"][cross_id]["sport"] == sport):
+            data["teams"][cross_id]["names"][bookmaker] = name
+            # Update canonical name to the one from this bookmaker if it seems more complete
+            if len(name) > len(data["teams"][cross_id]["canonical_name"]):
+                data["teams"][cross_id]["canonical_name"] = name
+            stats["fuzzy_matched"] += 1
+            # Update fuzzy lookup with both versions
+            name_to_id[name_clean] = cross_id
+            continue
+
+        # 4: New team
         team_id = _next_id(data)
         data["teams"][team_id] = {
             "id": team_id,
             "canonical_name": name,
-            "sport": t.get("sport", "unknown"),
+            "sport": sport,
             "notes": "",
             "names": {
                 "winline": None,
@@ -143,11 +163,38 @@ def import_from_bookmaker(bookmaker: str, teams_data: list[dict]) -> dict:
         }
         data["teams"][team_id]["names"][bookmaker] = name
         name_to_id[name_clean] = team_id
+        if fuzzy_clean:
+            fuzzy_to_id[fuzzy_clean] = team_id
         stats["new"] += 1
 
     save_teams(data)
     return stats
 
 
+def _fuzzy_name(name: str) -> str:
+    """Normalize team name for fuzzy cross-bookmaker matching."""
+    n = _clean(name)
+    # Remove content in parentheses: (ж), (м), (Reserve), etc.
+    n = re.sub(r'\([^)]*\)', '', n)
+    # Strip common suffixes that differ between bookmakers
+    suffixes = [
+        'фк', 'fc', 'cf', 'bk', 'bc', 'sc', 'ac', 'afc', 'dfc',
+        'city', 'united', 'town', 'county', 'rovers', 'rangers',
+        'wanderers', 'athletic', 'sporting', 'sports',
+        'club', 'team', 'res', 'reserve', 'u21', 'u23', 'u19', 'u18',
+        'women', 'ladies', 'youth', 'junior',
+        'ж', 'м',
+    ]
+    for sfx in suffixes:
+        n = re.sub(r'\s+' + re.escape(sfx) + r'$', '', n)
+    return re.sub(r'\s+', ' ', n).strip()
+
+
 def _clean(name: str) -> str:
-    return re.sub(r"\s+", " ", name.strip().lower())
+    """Normalize: lowercase, strip diacritics, collapse whitespace."""
+    import unicodedata
+    n = re.sub(r"\s+", " ", name.strip().lower())
+    # Decompose and strip combining diacritics (ё→е, ö→o, etc.)
+    nfkd = unicodedata.normalize('NFKD', n)
+    n = ''.join(ch for ch in nfkd if not unicodedata.combining(ch))
+    return n
