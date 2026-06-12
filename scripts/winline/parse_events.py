@@ -1,5 +1,5 @@
 """
-Winline event detail fetcher — v4.
+Winline event detail fetcher — v5.
 Loads event IDs for a sport, POSTs to /sb/api/by/actual, parses odds.
 Usage:
   python parse_events.py                      # auto-detect all event_ids_*.json files
@@ -12,7 +12,10 @@ import sys
 import time
 from pathlib import Path
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
+
+PARALLEL_WORKERS = 10  # change to adjust concurrency
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
@@ -241,11 +244,22 @@ def main():
             print(f"Check that event_ids_{filter_name}.json exists (run sniff.py first).")
         return
 
-    for ids_file, sport_name in files:
-        print(f"\n{'='*60}")
-        print(f"  Parsing: {sport_name}")
-        print(f"{'='*60}")
+    print(f"Parsing {len(files)} sport(s), parallel={PARALLEL_WORKERS}")
+    with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as executor:
+        futures = {executor.submit(_parse_safe, ids_file, sport_name): sport_name
+                   for ids_file, sport_name in files}
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception:
+                pass  # logged in _parse_safe
+
+
+def _parse_safe(ids_file, sport_name):
+    try:
         parse_sport(ids_file, sport_name)
+    except Exception as e:
+        print(f"  [{sport_name}] FAILED: {e}")
 
 
 if __name__ == "__main__":
