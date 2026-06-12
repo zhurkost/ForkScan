@@ -4,9 +4,14 @@ Loads football event IDs, POSTs to /sb/api/by/actual, parses odds.
 """
 import json
 import time
+import sys
 from pathlib import Path
 from datetime import datetime, timezone
 import requests
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT))
+from core.team_directory import import_from_bookmaker
 
 BASE_DIR = Path(__file__).resolve().parent
 IDS_FILE = BASE_DIR / "event_ids_football.json"
@@ -139,6 +144,14 @@ def main():
         if m1:
             odds = " / ".join(str(o["odds"]) for o in m1["outcomes"])
             print(f"  {e['event_id']}: {comps} [{odds}]")
+
+    teams_list = []
+    for e in events:
+        for c in e["competitors"]:
+            if c["name"]:
+                teams_list.append({"name": c["name"], "sport": "football"})
+    stats = import_from_bookmaker("winline", teams_list)
+    print(f"Teams: {stats['new']} new, {stats['cross_matched']} cross-matched, {stats['existing']} already known")
 
 
 if __name__ == "__main__":

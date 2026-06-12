@@ -102,20 +102,39 @@ def export_mapping() -> dict:
 
 def import_from_bookmaker(bookmaker: str, teams_data: list[dict]) -> dict:
     data = load_teams()
-    stats = {"new": 0, "existing": 0}
+    stats = {"new": 0, "existing": 0, "cross_matched": 0}
+
+    # Build lookup of all existing names by canonical
+    name_to_id = {}
+    for team_id, team in data["teams"].items():
+        canonical_clean = _clean(team["canonical_name"])
+        if canonical_clean not in name_to_id:
+            name_to_id[canonical_clean] = team_id
 
     for t in teams_data:
         name = t["name"]
+        name_clean = _clean(name)
+
+        # 1: Already known for this bookmaker
         existing_id = find_by_bookmaker(bookmaker, name)
         if existing_id:
             stats["existing"] += 1
             continue
 
+        # 2: Cross-match — same name exists from another bookmaker
+        cross_id = name_to_id.get(name_clean)
+        if cross_id and data["teams"][cross_id]["names"].get(bookmaker) is None:
+            data["teams"][cross_id]["names"][bookmaker] = name
+            stats["cross_matched"] += 1
+            continue
+
+        # 3: New team
         team_id = _next_id(data)
         data["teams"][team_id] = {
             "id": team_id,
             "canonical_name": name,
             "sport": t.get("sport", "unknown"),
+            "notes": "",
             "names": {
                 "winline": None,
                 "fonbet": None,
@@ -123,6 +142,7 @@ def import_from_bookmaker(bookmaker: str, teams_data: list[dict]) -> dict:
             },
         }
         data["teams"][team_id]["names"][bookmaker] = name
+        name_to_id[name_clean] = team_id
         stats["new"] += 1
 
     save_teams(data)

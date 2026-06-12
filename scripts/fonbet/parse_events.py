@@ -4,9 +4,14 @@ Fetches /events/listBase and extracts football events with 1X2 odds.
 """
 import json
 import time
+import sys
 from pathlib import Path
 from datetime import datetime, timezone
 import requests
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT))
+from core.team_directory import import_from_bookmaker
 
 BASE_DIR = Path(__file__).resolve().parent
 OUTPUT_FILE = BASE_DIR / "events_parsed.json"
@@ -152,6 +157,14 @@ def main():
         odds = e["market_1x2"]["outcomes"]
         o_str = " / ".join(str(o["odds"]) for o in odds)
         print(f"  {e['event_id']}: {teams} [{o_str}]")
+
+    teams_list = []
+    for e in events:
+        for c in e["competitors"]:
+            if c["name"]:
+                teams_list.append({"name": c["name"], "sport": "football"})
+    stats = import_from_bookmaker("fonbet", teams_list)
+    print(f"Teams: {stats['new']} new, {stats['cross_matched']} cross-matched, {stats['existing']} already known")
 
 
 if __name__ == "__main__":
