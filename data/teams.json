@@ -1,0 +1,6011 @@
+{
+  "version": 1,
+  "teams": {
+    "team_00001": {
+      "id": "team_00001",
+      "canonical_name": "Ильвес Тампере",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ильвес Тампере",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00002": {
+      "id": "team_00002",
+      "canonical_name": "Яро",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Яро",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00003": {
+      "id": "team_00003",
+      "canonical_name": "ХИК Хельсинки",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ХИК Хельсинки",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00004": {
+      "id": "team_00004",
+      "canonical_name": "Интер Турку",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Интер Турку",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00005": {
+      "id": "team_00005",
+      "canonical_name": "Сундсвалль",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сундсвалль",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00006": {
+      "id": "team_00006",
+      "canonical_name": "Эстер",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Эстер",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00007": {
+      "id": "team_00007",
+      "canonical_name": "Ванерсборгс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ванерсборгс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00008": {
+      "id": "team_00008",
+      "canonical_name": "Херрестад",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Херрестад",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00009": {
+      "id": "team_00009",
+      "canonical_name": "Тарту Велко",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Тарту Велко",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00010": {
+      "id": "team_00010",
+      "canonical_name": "Таллин",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Таллин",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00011": {
+      "id": "team_00011",
+      "canonical_name": "СИК",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "СИК",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00012": {
+      "id": "team_00012",
+      "canonical_name": "ВПС",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ВПС",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00013": {
+      "id": "team_00013",
+      "canonical_name": "Гнистан",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гнистан",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00014": {
+      "id": "team_00014",
+      "canonical_name": "Лахти",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лахти",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00015": {
+      "id": "team_00015",
+      "canonical_name": "Уругвай Монтевидео",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Уругвай Монтевидео",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00016": {
+      "id": "team_00016",
+      "canonical_name": "Мирамар Миссионс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мирамар Миссионс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00017": {
+      "id": "team_00017",
+      "canonical_name": "Депортиво Парагвайо",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Депортиво Парагвайо",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00018": {
+      "id": "team_00018",
+      "canonical_name": "ХХ Уркиса",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ХХ Уркиса",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00019": {
+      "id": "team_00019",
+      "canonical_name": "Уракан",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Уракан",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00020": {
+      "id": "team_00020",
+      "canonical_name": "Такуарембо",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Такуарембо",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00021": {
+      "id": "team_00021",
+      "canonical_name": "Сентраль Кордова Росарио",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сентраль Кордова Росарио",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00022": {
+      "id": "team_00022",
+      "canonical_name": "Депортиво Эспаньол",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Депортиво Эспаньол",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00023": {
+      "id": "team_00023",
+      "canonical_name": "КА Лугано",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "КА Лугано",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00024": {
+      "id": "team_00024",
+      "canonical_name": "Клуб Мерседес",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Клуб Мерседес",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00025": {
+      "id": "team_00025",
+      "canonical_name": "Колон",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Колон",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00026": {
+      "id": "team_00026",
+      "canonical_name": "Атлетико Феникс Монтевидео",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Атлетико Феникс Монтевидео",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00027": {
+      "id": "team_00027",
+      "canonical_name": "Спортиво Барракас",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Спортиво Барракас",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00028": {
+      "id": "team_00028",
+      "canonical_name": "Хенераль Ламадрид",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Хенераль Ламадрид",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00029": {
+      "id": "team_00029",
+      "canonical_name": "Ориенталь",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ориенталь",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00030": {
+      "id": "team_00030",
+      "canonical_name": "Атлетико Рентистас",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Атлетико Рентистас",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00031": {
+      "id": "team_00031",
+      "canonical_name": "Дефенсорес Камбасерес",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Дефенсорес Камбасерес",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00032": {
+      "id": "team_00032",
+      "canonical_name": "Берасатеги",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Берасатеги",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00033": {
+      "id": "team_00033",
+      "canonical_name": "Леандро Ничефоро Алем",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Леандро Ничефоро Алем",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00034": {
+      "id": "team_00034",
+      "canonical_name": "Викториано Аренас",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Викториано Аренас",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00035": {
+      "id": "team_00035",
+      "canonical_name": "Хувентуд Унида Сан Мигель",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Хувентуд Унида Сан Мигель",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00036": {
+      "id": "team_00036",
+      "canonical_name": "Эстрелла-дель-Сур Алехандро-Корн",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Эстрелла-дель-Сур Алехандро-Корн",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00037": {
+      "id": "team_00037",
+      "canonical_name": "Сентраль Бальестер",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сентраль Бальестер",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00038": {
+      "id": "team_00038",
+      "canonical_name": "Каньюэлас",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Каньюэлас",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00039": {
+      "id": "team_00039",
+      "canonical_name": "Пуэрто-Нуэво",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Пуэрто-Нуэво",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00040": {
+      "id": "team_00040",
+      "canonical_name": "Сентро Эспаньол",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сентро Эспаньол",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00041": {
+      "id": "team_00041",
+      "canonical_name": "Лухан",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лухан",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00042": {
+      "id": "team_00042",
+      "canonical_name": "Юпанки",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Юпанки",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00043": {
+      "id": "team_00043",
+      "canonical_name": "Сакачиспас",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сакачиспас",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00044": {
+      "id": "team_00044",
+      "canonical_name": "Архентино Росарио",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Архентино Росарио",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00045": {
+      "id": "team_00045",
+      "canonical_name": "Фаунтэйн Гейт",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Фаунтэйн Гейт",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00046": {
+      "id": "team_00046",
+      "canonical_name": "Азам",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Азам",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00047": {
+      "id": "team_00047",
+      "canonical_name": "КМК",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "КМК",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00048": {
+      "id": "team_00048",
+      "canonical_name": "Табора Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Табора Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00049": {
+      "id": "team_00049",
+      "canonical_name": "Эль-Порвенир",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Эль-Порвенир",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00050": {
+      "id": "team_00050",
+      "canonical_name": "КА Атлас",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "КА Атлас",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00051": {
+      "id": "team_00051",
+      "canonical_name": "Ривер Плейт (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ривер Плейт (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00052": {
+      "id": "team_00052",
+      "canonical_name": "Сан-Лоренсо (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сан-Лоренсо (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00053": {
+      "id": "team_00053",
+      "canonical_name": "Сошиал Атлетико Телевижн (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сошиал Атлетико Телевижн (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00054": {
+      "id": "team_00054",
+      "canonical_name": "Сан-Луис (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сан-Луис (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00055": {
+      "id": "team_00055",
+      "canonical_name": "Бельграно Кордова (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бельграно Кордова (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00056": {
+      "id": "team_00056",
+      "canonical_name": "Тальерес Кордова (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Тальерес Кордова (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00057": {
+      "id": "team_00057",
+      "canonical_name": "Унион Санта-Фе (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Унион Санта-Фе (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00058": {
+      "id": "team_00058",
+      "canonical_name": "Атлетико Ланус (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Атлетико Ланус (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00059": {
+      "id": "team_00059",
+      "canonical_name": "Химнасия Ла-Плата (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Химнасия Ла-Плата (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00060": {
+      "id": "team_00060",
+      "canonical_name": "Ньюэллс Олд Бойз (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ньюэллс Олд Бойз (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00061": {
+      "id": "team_00061",
+      "canonical_name": "Кройдон",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кройдон",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00062": {
+      "id": "team_00062",
+      "canonical_name": "Плейфорд Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Плейфорд Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00063": {
+      "id": "team_00063",
+      "canonical_name": "Аделаида Кометс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Кометс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00064": {
+      "id": "team_00064",
+      "canonical_name": "Вест Аделаида",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вест Аделаида",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00065": {
+      "id": "team_00065",
+      "canonical_name": "Кэмпбеллтаун Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кэмпбеллтаун Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00066": {
+      "id": "team_00066",
+      "canonical_name": "Вест Торренс Биркалла",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вест Торренс Биркалла",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00067": {
+      "id": "team_00067",
+      "canonical_name": "Пара Хиллз Найтс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Пара Хиллз Найтс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00068": {
+      "id": "team_00068",
+      "canonical_name": "Белград Аделаида",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Белград Аделаида",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00069": {
+      "id": "team_00069",
+      "canonical_name": "Норт-Истерн МетроСтарз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Норт-Истерн МетроСтарз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00070": {
+      "id": "team_00070",
+      "canonical_name": "Стерт Лайонс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Стерт Лайонс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00071": {
+      "id": "team_00071",
+      "canonical_name": "Аделаида Юнайтед (мол)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Юнайтед (мол)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00072": {
+      "id": "team_00072",
+      "canonical_name": "Аделаида Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00073": {
+      "id": "team_00073",
+      "canonical_name": "Перт Глори (мол)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Перт Глори (мол)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00074": {
+      "id": "team_00074",
+      "canonical_name": "Перт СК",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Перт СК",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00075": {
+      "id": "team_00075",
+      "canonical_name": "Куиннс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Куиннс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00076": {
+      "id": "team_00076",
+      "canonical_name": "Кертин Юниверсити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кертин Юниверсити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00077": {
+      "id": "team_00077",
+      "canonical_name": "Кингсли Вестсайд",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кингсли Вестсайд",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00078": {
+      "id": "team_00078",
+      "canonical_name": "Инглвуд Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Инглвуд Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00079": {
+      "id": "team_00079",
+      "canonical_name": "Дианелла Уайт Иглз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Дианелла Уайт Иглз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00080": {
+      "id": "team_00080",
+      "canonical_name": "Вестерн Найтс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вестерн Найтс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00081": {
+      "id": "team_00081",
+      "canonical_name": "Кларенс Зебрас",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кларенс Зебрас",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00082": {
+      "id": "team_00082",
+      "canonical_name": "Саут Хобарт",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Саут Хобарт",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00083": {
+      "id": "team_00083",
+      "canonical_name": "Гленорчи Найтс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гленорчи Найтс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00084": {
+      "id": "team_00084",
+      "canonical_name": "Риверсайд Олимпик",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Риверсайд Олимпик",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00085": {
+      "id": "team_00085",
+      "canonical_name": "Бриндабелла Блюз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бриндабелла Блюз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00086": {
+      "id": "team_00086",
+      "canonical_name": "Белконнен Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Белконнен Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00087": {
+      "id": "team_00087",
+      "canonical_name": "Куинбиан Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Куинбиан Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00088": {
+      "id": "team_00088",
+      "canonical_name": "Монаро Пантерс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Монаро Пантерс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00089": {
+      "id": "team_00089",
+      "canonical_name": "О'Коннор Найтс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "О'Коннор Найтс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00090": {
+      "id": "team_00090",
+      "canonical_name": "Таггеранонг Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Таггеранонг Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00091": {
+      "id": "team_00091",
+      "canonical_name": "Адамстаун Роузбад",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Адамстаун Роузбад",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00092": {
+      "id": "team_00092",
+      "canonical_name": "Бродмидоу Мэджик",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бродмидоу Мэджик",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00093": {
+      "id": "team_00093",
+      "canonical_name": "Вестон Беарз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вестон Беарз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00094": {
+      "id": "team_00094",
+      "canonical_name": "Бельмонт Суонси Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бельмонт Суонси Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00095": {
+      "id": "team_00095",
+      "canonical_name": "Робина Сити (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Робина Сити (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00096": {
+      "id": "team_00096",
+      "canonical_name": "Холланд Парк Хокс (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Холланд Парк Хокс (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00097": {
+      "id": "team_00097",
+      "canonical_name": "Эджворт Иглз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Эджворт Иглз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00098": {
+      "id": "team_00098",
+      "canonical_name": "Кукс Хилл Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кукс Хилл Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00099": {
+      "id": "team_00099",
+      "canonical_name": "Мейтленд",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мейтленд",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00100": {
+      "id": "team_00100",
+      "canonical_name": "Валентайн",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Валентайн",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00101": {
+      "id": "team_00101",
+      "canonical_name": "Мердок Юниверсити-Мелвилл",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мердок Юниверсити-Мелвилл",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00102": {
+      "id": "team_00102",
+      "canonical_name": "Кокберн Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кокберн Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00103": {
+      "id": "team_00103",
+      "canonical_name": "УВА Недлендс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "УВА Недлендс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00104": {
+      "id": "team_00104",
+      "canonical_name": "Флорит Атена",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Флорит Атена",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00105": {
+      "id": "team_00105",
+      "canonical_name": "Фримантл Сити (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Фримантл Сити (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00106": {
+      "id": "team_00106",
+      "canonical_name": "Балкатта Этна (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Балкатта Этна (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00107": {
+      "id": "team_00107",
+      "canonical_name": "Стерлинг Македония (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Стерлинг Македония (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00108": {
+      "id": "team_00108",
+      "canonical_name": "Сорренто (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сорренто (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00109": {
+      "id": "team_00109",
+      "canonical_name": "КПВ Коккола",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "КПВ Коккола",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00110": {
+      "id": "team_00110",
+      "canonical_name": "Ювяскюля",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ювяскюля",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00111": {
+      "id": "team_00111",
+      "canonical_name": "Армадейл (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Армадейл (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00112": {
+      "id": "team_00112",
+      "canonical_name": "Бэйсуотер Сити (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бэйсуотер Сити (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00113": {
+      "id": "team_00113",
+      "canonical_name": "Кески-Юусимаа",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кески-Юусимаа",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00114": {
+      "id": "team_00114",
+      "canonical_name": "ТПВ Тампере",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ТПВ Тампере",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00115": {
+      "id": "team_00115",
+      "canonical_name": "ВЯС",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ВЯС",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00116": {
+      "id": "team_00116",
+      "canonical_name": "РоПС",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "РоПС",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00117": {
+      "id": "team_00117",
+      "canonical_name": "Имст 1933",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Имст 1933",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00118": {
+      "id": "team_00118",
+      "canonical_name": "Кюхль",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кюхль",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00119": {
+      "id": "team_00119",
+      "canonical_name": "Вирджиния Юнайтед (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вирджиния Юнайтед (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00120": {
+      "id": "team_00120",
+      "canonical_name": "Логан Лайтнинг (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Логан Лайтнинг (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00121": {
+      "id": "team_00121",
+      "canonical_name": "Чарльстаун Адзурри",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Чарльстаун Адзурри",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00122": {
+      "id": "team_00122",
+      "canonical_name": "Лэмбтон Джаффас",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лэмбтон Джаффас",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00123": {
+      "id": "team_00123",
+      "canonical_name": "Бродбич Юнайтед (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бродбич Юнайтед (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00124": {
+      "id": "team_00124",
+      "canonical_name": "Сент-Джордж Уиллавонг (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сент-Джордж Уиллавонг (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00125": {
+      "id": "team_00125",
+      "canonical_name": "Мельбурн Найтс (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мельбурн Найтс (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00126": {
+      "id": "team_00126",
+      "canonical_name": "Брансвик Ювентус (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Брансвик Ювентус (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00127": {
+      "id": "team_00127",
+      "canonical_name": "Канберра Уайт Иглз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Канберра Уайт Иглз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00128": {
+      "id": "team_00128",
+      "canonical_name": "Канберра Кроэйша",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Канберра Кроэйша",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00129": {
+      "id": "team_00129",
+      "canonical_name": "Спортинг Джэксонвилл",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Спортинг Джэксонвилл",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00130": {
+      "id": "team_00130",
+      "canonical_name": "Детройт Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Детройт Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00131": {
+      "id": "team_00131",
+      "canonical_name": "Франция (TitaN)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Франция (TitaN)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00132": {
+      "id": "team_00132",
+      "canonical_name": "Англия (Art1m)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Англия (Art1m)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00133": {
+      "id": "team_00133",
+      "canonical_name": "Аделаида Кометс (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Кометс (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00134": {
+      "id": "team_00134",
+      "canonical_name": "Вест Аделаида (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вест Аделаида (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00135": {
+      "id": "team_00135",
+      "canonical_name": "Ньюкасл Олимпик",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ньюкасл Олимпик",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00136": {
+      "id": "team_00136",
+      "canonical_name": "Кахиба",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кахиба",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00137": {
+      "id": "team_00137",
+      "canonical_name": "Вирджиния Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вирджиния Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00138": {
+      "id": "team_00138",
+      "canonical_name": "Саутсайд Иглз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Саутсайд Иглз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00139": {
+      "id": "team_00139",
+      "canonical_name": "Джундалуп Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Джундалуп Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00140": {
+      "id": "team_00140",
+      "canonical_name": "Гуэлап Кроэйша",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гуэлап Кроэйша",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00141": {
+      "id": "team_00141",
+      "canonical_name": "Луисвилл Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Луисвилл Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00142": {
+      "id": "team_00142",
+      "canonical_name": "Бруклин",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бруклин",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00143": {
+      "id": "team_00143",
+      "canonical_name": "Макартур Рэмс (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Макартур Рэмс (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00144": {
+      "id": "team_00144",
+      "canonical_name": "Буллз Академи (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Буллз Академи (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00145": {
+      "id": "team_00145",
+      "canonical_name": "Саут-Ист Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Саут-Ист Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00146": {
+      "id": "team_00146",
+      "canonical_name": "Кингборо Лайонс Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кингборо Лайонс Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00147": {
+      "id": "team_00147",
+      "canonical_name": "Алверстон",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Алверстон",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00148": {
+      "id": "team_00148",
+      "canonical_name": "Лонсестон Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лонсестон Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00149": {
+      "id": "team_00149",
+      "canonical_name": "Иллаварра Стингрейс (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Иллаварра Стингрейс (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00150": {
+      "id": "team_00150",
+      "canonical_name": "Нозерн Тайгерс (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Нозерн Тайгерс (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00151": {
+      "id": "team_00151",
+      "canonical_name": "Сувон (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сувон (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00152": {
+      "id": "team_00152",
+      "canonical_name": "Седжон Спортстото (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Седжон Спортстото (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00153": {
+      "id": "team_00153",
+      "canonical_name": "Аль-Салмия",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аль-Салмия",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00154": {
+      "id": "team_00154",
+      "canonical_name": "Аль-Кувейт",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аль-Кувейт",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00155": {
+      "id": "team_00155",
+      "canonical_name": "Субиако (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Субиако (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00156": {
+      "id": "team_00156",
+      "canonical_name": "Манджера Сити (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Манджера Сити (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00157": {
+      "id": "team_00157",
+      "canonical_name": "Аль-Рияди Аббасия",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аль-Рияди Аббасия",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00158": {
+      "id": "team_00158",
+      "canonical_name": "Аль-Хикма",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аль-Хикма",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00159": {
+      "id": "team_00159",
+      "canonical_name": "Лонсестон Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лонсестон Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00160": {
+      "id": "team_00160",
+      "canonical_name": "Девонпорт Сити Страйкерс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Девонпорт Сити Страйкерс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00161": {
+      "id": "team_00161",
+      "canonical_name": "Малага",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Малага",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00162": {
+      "id": "team_00162",
+      "canonical_name": "Альмерия",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Альмерия",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00163": {
+      "id": "team_00163",
+      "canonical_name": "Рокдейл Илинден",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Рокдейл Илинден",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00164": {
+      "id": "team_00164",
+      "canonical_name": "СД Рэйдерс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "СД Рэйдерс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00165": {
+      "id": "team_00165",
+      "canonical_name": "Сорренто (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сорренто (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00166": {
+      "id": "team_00166",
+      "canonical_name": "УВА Недлендс (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "УВА Недлендс (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00167": {
+      "id": "team_00167",
+      "canonical_name": "Кабултур (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кабултур (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00168": {
+      "id": "team_00168",
+      "canonical_name": "Гэп (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гэп (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00169": {
+      "id": "team_00169",
+      "canonical_name": "Вестерн Сидней Уондерерс (ж) (мол)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вестерн Сидней Уондерерс (ж) (мол)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00170": {
+      "id": "team_00170",
+      "canonical_name": "НСВ Юниверсити (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "НСВ Юниверсити (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00171": {
+      "id": "team_00171",
+      "canonical_name": "Аль-Наср Эль-Фарвания",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аль-Наср Эль-Фарвания",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00172": {
+      "id": "team_00172",
+      "canonical_name": "Казма",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Казма",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00173": {
+      "id": "team_00173",
+      "canonical_name": "Волгарь Астрахань",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Волгарь Астрахань",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00174": {
+      "id": "team_00174",
+      "canonical_name": "Сибирь",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сибирь",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00175": {
+      "id": "team_00175",
+      "canonical_name": "Торпедо Миасс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Торпедо Миасс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00176": {
+      "id": "team_00176",
+      "canonical_name": "Родина 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Родина 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00177": {
+      "id": "team_00177",
+      "canonical_name": "Калуга",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Калуга",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00178": {
+      "id": "team_00178",
+      "canonical_name": "Машук-КМВ Пятигорск",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Машук-КМВ Пятигорск",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00179": {
+      "id": "team_00179",
+      "canonical_name": "Текстильщик Иваново",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Текстильщик Иваново",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00180": {
+      "id": "team_00180",
+      "canonical_name": "Иртыш Омск",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Иртыш Омск",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00181": {
+      "id": "team_00181",
+      "canonical_name": "Велес",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Велес",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00182": {
+      "id": "team_00182",
+      "canonical_name": "Ленинградец",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ленинградец",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00183": {
+      "id": "team_00183",
+      "canonical_name": "Субиако (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Субиако (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00184": {
+      "id": "team_00184",
+      "canonical_name": "Перт РедСтар (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Перт РедСтар (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00185": {
+      "id": "team_00185",
+      "canonical_name": "Мортон Сити Эксельсиор (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мортон Сити Эксельсиор (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00186": {
+      "id": "team_00186",
+      "canonical_name": "Палм Бич (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Палм Бич (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00187": {
+      "id": "team_00187",
+      "canonical_name": "Норт Пайн",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Норт Пайн",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00188": {
+      "id": "team_00188",
+      "canonical_name": "Йеронга Иглз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Йеронга Иглз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00189": {
+      "id": "team_00189",
+      "canonical_name": "КФР Хвольсвёдлюр",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "КФР Хвольсвёдлюр",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00190": {
+      "id": "team_00190",
+      "canonical_name": "Ульфарнир",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ульфарнир",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00191": {
+      "id": "team_00191",
+      "canonical_name": "Норт-Истерн МетроСтарз (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Норт-Истерн МетроСтарз (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00192": {
+      "id": "team_00192",
+      "canonical_name": "Стерт Лайонс (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Стерт Лайонс (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00193": {
+      "id": "team_00193",
+      "canonical_name": "Ньюкасл Олимпик (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ньюкасл Олимпик (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00194": {
+      "id": "team_00194",
+      "canonical_name": "Нью-Лэмбтон (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Нью-Лэмбтон (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00195": {
+      "id": "team_00195",
+      "canonical_name": "Севастополь",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Севастополь",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00196": {
+      "id": "team_00196",
+      "canonical_name": "Победа Хасавюрт",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Победа Хасавюрт",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00197": {
+      "id": "team_00197",
+      "canonical_name": "Шахтер Донецк Таганрог",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Шахтер Донецк Таганрог",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00198": {
+      "id": "team_00198",
+      "canonical_name": "Дружба Майкоп",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Дружба Майкоп",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00199": {
+      "id": "team_00199",
+      "canonical_name": "Кызылташ",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кызылташ",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00200": {
+      "id": "team_00200",
+      "canonical_name": "Нефтяник Избербаш",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Нефтяник Избербаш",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00201": {
+      "id": "team_00201",
+      "canonical_name": "ПСК Динская",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ПСК Динская",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00202": {
+      "id": "team_00202",
+      "canonical_name": "Астрахань",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Астрахань",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00203": {
+      "id": "team_00203",
+      "canonical_name": "Холбек",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Холбек",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00204": {
+      "id": "team_00204",
+      "canonical_name": "Вайгор",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вайгор",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00205": {
+      "id": "team_00205",
+      "canonical_name": "Заря Луганск",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Заря Луганск",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00206": {
+      "id": "team_00206",
+      "canonical_name": "Ангушт Назрань",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ангушт Назрань",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00207": {
+      "id": "team_00207",
+      "canonical_name": "Ростов 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ростов 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00208": {
+      "id": "team_00208",
+      "canonical_name": "Спартак Нальчик",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Спартак Нальчик",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00209": {
+      "id": "team_00209",
+      "canonical_name": "Чайка 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Чайка 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00210": {
+      "id": "team_00210",
+      "canonical_name": "Нарт Черкесск",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Нарт Черкесск",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00211": {
+      "id": "team_00211",
+      "canonical_name": "Рубин Ялта",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Рубин Ялта",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00212": {
+      "id": "team_00212",
+      "canonical_name": "Динамо Махачкала 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Динамо Махачкала 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00213": {
+      "id": "team_00213",
+      "canonical_name": "Камден Тайгерс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Камден Тайгерс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00214": {
+      "id": "team_00214",
+      "canonical_name": "Бэнкстаун Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бэнкстаун Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00215": {
+      "id": "team_00215",
+      "canonical_name": "Акранес",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Акранес",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00216": {
+      "id": "team_00216",
+      "canonical_name": "Викингур Рейкьявик",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Викингур Рейкьявик",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00217": {
+      "id": "team_00217",
+      "canonical_name": "Хаукар (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Хаукар (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00218": {
+      "id": "team_00218",
+      "canonical_name": "Волсунгур (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Волсунгур (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00219": {
+      "id": "team_00219",
+      "canonical_name": "Флора Таллин 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Флора Таллин 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00220": {
+      "id": "team_00220",
+      "canonical_name": "Калев Таллин",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Калев Таллин",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00221": {
+      "id": "team_00221",
+      "canonical_name": "Фолло",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Фолло",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00222": {
+      "id": "team_00222",
+      "canonical_name": "Хьельсос",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Хьельсос",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00223": {
+      "id": "team_00223",
+      "canonical_name": "Оулу",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Оулу",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00224": {
+      "id": "team_00224",
+      "canonical_name": "Мариехамн",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мариехамн",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00225": {
+      "id": "team_00225",
+      "canonical_name": "Проспект Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Проспект Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00226": {
+      "id": "team_00226",
+      "canonical_name": "Далвич Хилл",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Далвич Хилл",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00227": {
+      "id": "team_00227",
+      "canonical_name": "Динамо С-Пб",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Динамо С-Пб",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00228": {
+      "id": "team_00228",
+      "canonical_name": "Динамо Вологда",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Динамо Вологда",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00229": {
+      "id": "team_00229",
+      "canonical_name": "Искра Смоленск",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Искра Смоленск",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00230": {
+      "id": "team_00230",
+      "canonical_name": "Луки-Энергия",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Луки-Энергия",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00231": {
+      "id": "team_00231",
+      "canonical_name": "СКА-Хабаровск 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "СКА-Хабаровск 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00232": {
+      "id": "team_00232",
+      "canonical_name": "Салют",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Салют",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00233": {
+      "id": "team_00233",
+      "canonical_name": "Сатурн Раменское",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сатурн Раменское",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00234": {
+      "id": "team_00234",
+      "canonical_name": "Волна Ковернино",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Волна Ковернино",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00235": {
+      "id": "team_00235",
+      "canonical_name": "Спартак Тамбов",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Спартак Тамбов",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00236": {
+      "id": "team_00236",
+      "canonical_name": "Ротор Волгоград 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ротор Волгоград 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00237": {
+      "id": "team_00237",
+      "canonical_name": "Строгино",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Строгино",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00238": {
+      "id": "team_00238",
+      "canonical_name": "Орёл",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Орёл",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00239": {
+      "id": "team_00239",
+      "canonical_name": "Авангард Курск",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Авангард Курск",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00240": {
+      "id": "team_00240",
+      "canonical_name": "Рязань",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Рязань",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00241": {
+      "id": "team_00241",
+      "canonical_name": "Шумбрат Саранск",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Шумбрат Саранск",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00242": {
+      "id": "team_00242",
+      "canonical_name": "Квант Обнинск",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Квант Обнинск",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00243": {
+      "id": "team_00243",
+      "canonical_name": "Аделаида Кометс (ж) (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Кометс (ж) (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00244": {
+      "id": "team_00244",
+      "canonical_name": "Вест Аделаида (ж) (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вест Аделаида (ж) (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00245": {
+      "id": "team_00245",
+      "canonical_name": "Пара Хиллз Найтс (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Пара Хиллз Найтс (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00246": {
+      "id": "team_00246",
+      "canonical_name": "Белград Аделаида (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Белград Аделаида (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00247": {
+      "id": "team_00247",
+      "canonical_name": "Вестерн Юнайтед (мол)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вестерн Юнайтед (мол)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00248": {
+      "id": "team_00248",
+      "canonical_name": "Порт Мельбурн Шаркс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Порт Мельбурн Шаркс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00249": {
+      "id": "team_00249",
+      "canonical_name": "Норт Саншайн Иглз (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Норт Саншайн Иглз (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00250": {
+      "id": "team_00250",
+      "canonical_name": "Мельбурн Сербия (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мельбурн Сербия (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00251": {
+      "id": "team_00251",
+      "canonical_name": "Эльфсборг (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Эльфсборг (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00252": {
+      "id": "team_00252",
+      "canonical_name": "Гётеборг (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гётеборг (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00253": {
+      "id": "team_00253",
+      "canonical_name": "Вархауг",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вархауг",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00254": {
+      "id": "team_00254",
+      "canonical_name": "Викинг 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Викинг 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00255": {
+      "id": "team_00255",
+      "canonical_name": "Кройдон (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кройдон (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00256": {
+      "id": "team_00256",
+      "canonical_name": "Плейфорд Сити (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Плейфорд Сити (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00257": {
+      "id": "team_00257",
+      "canonical_name": "Аделаида Кобрас (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Кобрас (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00258": {
+      "id": "team_00258",
+      "canonical_name": "Камберленд Юнайтед (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Камберленд Юнайтед (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00259": {
+      "id": "team_00259",
+      "canonical_name": "Канберра Ювентус",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Канберра Ювентус",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00260": {
+      "id": "team_00260",
+      "canonical_name": "Тайгерс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Тайгерс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00261": {
+      "id": "team_00261",
+      "canonical_name": "Херсхольм-Уссерод",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Херсхольм-Уссерод",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00262": {
+      "id": "team_00262",
+      "canonical_name": "Несбю",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Несбю",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00263": {
+      "id": "team_00263",
+      "canonical_name": "Асахи Интекк Лавледж Нагоя (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Асахи Интекк Лавледж Нагоя (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00264": {
+      "id": "team_00264",
+      "canonical_name": "Ига Куноити (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ига Куноити (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00265": {
+      "id": "team_00265",
+      "canonical_name": "Люсенг",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Люсенг",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00266": {
+      "id": "team_00266",
+      "canonical_name": "Оддер",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Оддер",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00267": {
+      "id": "team_00267",
+      "canonical_name": "Фулхэм Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Фулхэм Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00268": {
+      "id": "team_00268",
+      "canonical_name": "Аделаида Виктори",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Виктори",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00269": {
+      "id": "team_00269",
+      "canonical_name": "Флуминенсе РЖ",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Флуминенсе РЖ",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00270": {
+      "id": "team_00270",
+      "canonical_name": "РБ Брагантино СП",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "РБ Брагантино СП",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00271": {
+      "id": "team_00271",
+      "canonical_name": "Лангваррин (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лангваррин (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00272": {
+      "id": "team_00272",
+      "canonical_name": "Маннингем Юнайтед Блюз (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Маннингем Юнайтед Блюз (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00273": {
+      "id": "team_00273",
+      "canonical_name": "Аделаида Райдерс (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Райдерс (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00274": {
+      "id": "team_00274",
+      "canonical_name": "Саут Аделаида (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Саут Аделаида (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00275": {
+      "id": "team_00275",
+      "canonical_name": "Истерн Юнайтед (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Истерн Юнайтед (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00276": {
+      "id": "team_00276",
+      "canonical_name": "Аделаида Олимпик (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Олимпик (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00277": {
+      "id": "team_00277",
+      "canonical_name": "Коув (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Коув (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00278": {
+      "id": "team_00278",
+      "canonical_name": "Модбери Джетс (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Модбери Джетс (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00279": {
+      "id": "team_00279",
+      "canonical_name": "Вондс Итихара (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вондс Итихара (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00280": {
+      "id": "team_00280",
+      "canonical_name": "Окаяма Юного Белле (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Окаяма Юного Белле (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00281": {
+      "id": "team_00281",
+      "canonical_name": "Сетагайя Сфида (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сетагайя Сфида (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00282": {
+      "id": "team_00282",
+      "canonical_name": "Харима Альбион (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Харима Альбион (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00283": {
+      "id": "team_00283",
+      "canonical_name": "Солсбери Интер (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Солсбери Интер (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00284": {
+      "id": "team_00284",
+      "canonical_name": "Норт-Истерн МетроСтарз (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Норт-Истерн МетроСтарз (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00285": {
+      "id": "team_00285",
+      "canonical_name": "Гленорчи Найтс (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гленорчи Найтс (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00286": {
+      "id": "team_00286",
+      "canonical_name": "Лонсестон Юнайтед (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лонсестон Юнайтед (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00287": {
+      "id": "team_00287",
+      "canonical_name": "Аделаида Блю Иглз (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Блю Иглз (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00288": {
+      "id": "team_00288",
+      "canonical_name": "Солсбери Юнайтед (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Солсбери Юнайтед (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00289": {
+      "id": "team_00289",
+      "canonical_name": "Костал Юнион",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Костал Юнион",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00290": {
+      "id": "team_00290",
+      "canonical_name": "Намунго",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Намунго",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00291": {
+      "id": "team_00291",
+      "canonical_name": "Даугавпилс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Даугавпилс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00292": {
+      "id": "team_00292",
+      "canonical_name": "Супер Нова",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Супер Нова",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00293": {
+      "id": "team_00293",
+      "canonical_name": "Трансинвест",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Трансинвест",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00294": {
+      "id": "team_00294",
+      "canonical_name": "Ритеряй",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ритеряй",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00295": {
+      "id": "team_00295",
+      "canonical_name": "ЛоПа",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ЛоПа",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00296": {
+      "id": "team_00296",
+      "canonical_name": "ГрИФК Академия",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ГрИФК Академия",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00297": {
+      "id": "team_00297",
+      "canonical_name": "Риихимаен Паллосеура",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Риихимаен Паллосеура",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00298": {
+      "id": "team_00298",
+      "canonical_name": "МК-Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "МК-Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00299": {
+      "id": "team_00299",
+      "canonical_name": "КааПо",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "КааПо",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00300": {
+      "id": "team_00300",
+      "canonical_name": "Або",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Або",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00301": {
+      "id": "team_00301",
+      "canonical_name": "Ширвена Биржай",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ширвена Биржай",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00302": {
+      "id": "team_00302",
+      "canonical_name": "Невежис",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Невежис",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00303": {
+      "id": "team_00303",
+      "canonical_name": "ToTe/Taпио",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ToTe/Taпио",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00304": {
+      "id": "team_00304",
+      "canonical_name": "Атлантис Академия",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Атлантис Академия",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00305": {
+      "id": "team_00305",
+      "canonical_name": "ЛеКи",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ЛеКи",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00306": {
+      "id": "team_00306",
+      "canonical_name": "ТПВ 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ТПВ 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00307": {
+      "id": "team_00307",
+      "canonical_name": "ПК-35 Вантаа (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ПК-35 Вантаа (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00308": {
+      "id": "team_00308",
+      "canonical_name": "КуПС (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "КуПС (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00309": {
+      "id": "team_00309",
+      "canonical_name": "ГрИФК",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ГрИФК",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00310": {
+      "id": "team_00310",
+      "canonical_name": "ХИС Академия",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ХИС Академия",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00311": {
+      "id": "team_00311",
+      "canonical_name": "Судува",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Судува",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00312": {
+      "id": "team_00312",
+      "canonical_name": "Шяуляй",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Шяуляй",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00313": {
+      "id": "team_00313",
+      "canonical_name": "ЯБК Якобстад",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ЯБК Якобстад",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00314": {
+      "id": "team_00314",
+      "canonical_name": "СИК Академия 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "СИК Академия 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00315": {
+      "id": "team_00315",
+      "canonical_name": "Хеллас Кагран",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Хеллас Кагран",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00316": {
+      "id": "team_00316",
+      "canonical_name": "Флоридсдорфер АК Вена 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Флоридсдорфер АК Вена 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00317": {
+      "id": "team_00317",
+      "canonical_name": "Ферст Вена 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ферст Вена 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00318": {
+      "id": "team_00318",
+      "canonical_name": "Ред Стар Пенцинг",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ред Стар Пенцинг",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00319": {
+      "id": "team_00319",
+      "canonical_name": "НоПС",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "НоПС",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00320": {
+      "id": "team_00320",
+      "canonical_name": "Тампере Юнайтед 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Тампере Юнайтед 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00321": {
+      "id": "team_00321",
+      "canonical_name": "Ювяскюля Блэкберд",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ювяскюля Блэкберд",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00322": {
+      "id": "team_00322",
+      "canonical_name": "КеуПа",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "КеуПа",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00323": {
+      "id": "team_00323",
+      "canonical_name": "Савон Палло",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Савон Палло",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00324": {
+      "id": "team_00324",
+      "canonical_name": "Вааякоски 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вааякоски 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00325": {
+      "id": "team_00325",
+      "canonical_name": "Комеетат",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Комеетат",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00326": {
+      "id": "team_00326",
+      "canonical_name": "Метсо",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Метсо",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00327": {
+      "id": "team_00327",
+      "canonical_name": "Дила Гори",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Дила Гори",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00328": {
+      "id": "team_00328",
+      "canonical_name": "Спаэри",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Спаэри",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00329": {
+      "id": "team_00329",
+      "canonical_name": "ХПС",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ХПС",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00330": {
+      "id": "team_00330",
+      "canonical_name": "Киффен",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Киффен",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00331": {
+      "id": "team_00331",
+      "canonical_name": "Конту",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Конту",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00332": {
+      "id": "team_00332",
+      "canonical_name": "Вантаа ЯС 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вантаа ЯС 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00333": {
+      "id": "team_00333",
+      "canonical_name": "Укмерге",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Укмерге",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00334": {
+      "id": "team_00334",
+      "canonical_name": "Банга 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Банга 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00335": {
+      "id": "team_00335",
+      "canonical_name": "Гробинас",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гробинас",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00336": {
+      "id": "team_00336",
+      "canonical_name": "Лиепая",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лиепая",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00337": {
+      "id": "team_00337",
+      "canonical_name": "Пярну Вапрус",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Пярну Вапрус",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00338": {
+      "id": "team_00338",
+      "canonical_name": "Флора Таллин",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Флора Таллин",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00339": {
+      "id": "team_00339",
+      "canonical_name": "Курессааре",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Курессааре",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00340": {
+      "id": "team_00340",
+      "canonical_name": "Транс Нарва",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Транс Нарва",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00341": {
+      "id": "team_00341",
+      "canonical_name": "ЭсПа",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ЭсПа",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00342": {
+      "id": "team_00342",
+      "canonical_name": "ХооГее",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ХооГее",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00343": {
+      "id": "team_00343",
+      "canonical_name": "ЭуПа",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ЭуПа",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00344": {
+      "id": "team_00344",
+      "canonical_name": "МаПС",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "МаПС",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00345": {
+      "id": "team_00345",
+      "canonical_name": "Жальгирис Вильнюс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Жальгирис Вильнюс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00346": {
+      "id": "team_00346",
+      "canonical_name": "Паневежис",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Паневежис",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00347": {
+      "id": "team_00347",
+      "canonical_name": "Ферровиария СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ферровиария СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00348": {
+      "id": "team_00348",
+      "canonical_name": "Америка СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Америка СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00349": {
+      "id": "team_00349",
+      "canonical_name": "ЕБК",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ЕБК",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00350": {
+      "id": "team_00350",
+      "canonical_name": "МуСа",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "МуСа",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00351": {
+      "id": "team_00351",
+      "canonical_name": "ППС",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ППС",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00352": {
+      "id": "team_00352",
+      "canonical_name": "Валтти",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Валтти",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00353": {
+      "id": "team_00353",
+      "canonical_name": "Миккелин Киссат",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Миккелин Киссат",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00354": {
+      "id": "team_00354",
+      "canonical_name": "Миккелин Паллоилият 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Миккелин Паллоилият 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00355": {
+      "id": "team_00355",
+      "canonical_name": "ППЮ/Лауттасаари",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ППЮ/Лауттасаари",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00356": {
+      "id": "team_00356",
+      "canonical_name": "ТиПС Вантаа",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ТиПС Вантаа",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00357": {
+      "id": "team_00357",
+      "canonical_name": "Ойгендорф",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ойгендорф",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00358": {
+      "id": "team_00358",
+      "canonical_name": "Тальгау",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Тальгау",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00359": {
+      "id": "team_00359",
+      "canonical_name": "АКЕ",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "АКЕ",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00360": {
+      "id": "team_00360",
+      "canonical_name": "Сяаксъярвен Лойске",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сяаксъярвен Лойске",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00361": {
+      "id": "team_00361",
+      "canonical_name": "Швехат",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Швехат",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00362": {
+      "id": "team_00362",
+      "canonical_name": "Ландштрассер",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ландштрассер",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00363": {
+      "id": "team_00363",
+      "canonical_name": "Фламенго СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Фламенго СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00364": {
+      "id": "team_00364",
+      "canonical_name": "Гуарани СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гуарани СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00365": {
+      "id": "team_00365",
+      "canonical_name": "Ривер Плейт Монтевидео",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ривер Плейт Монтевидео",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00366": {
+      "id": "team_00366",
+      "canonical_name": "Серрито",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Серрито",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00367": {
+      "id": "team_00367",
+      "canonical_name": "Атенас Сан-Карлос",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Атенас Сан-Карлос",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00368": {
+      "id": "team_00368",
+      "canonical_name": "Ла-Лус",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ла-Лус",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00369": {
+      "id": "team_00369",
+      "canonical_name": "Пайсанду",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Пайсанду",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00370": {
+      "id": "team_00370",
+      "canonical_name": "Пласа Колония",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Пласа Колония",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00371": {
+      "id": "team_00371",
+      "canonical_name": "Аделаида Кометс (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Кометс (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00372": {
+      "id": "team_00372",
+      "canonical_name": "Вест Аделаида (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вест Аделаида (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00373": {
+      "id": "team_00373",
+      "canonical_name": "Униан Сузану СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Униан Сузану СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00374": {
+      "id": "team_00374",
+      "canonical_name": "Сертанзинью СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сертанзинью СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00375": {
+      "id": "team_00375",
+      "canonical_name": "Юнион Минас",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Юнион Минас",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00376": {
+      "id": "team_00376",
+      "canonical_name": "АДТ Тарма",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "АДТ Тарма",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00377": {
+      "id": "team_00377",
+      "canonical_name": "Сантос СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сантос СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00378": {
+      "id": "team_00378",
+      "canonical_name": "Жабакуара СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Жабакуара СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00379": {
+      "id": "team_00379",
+      "canonical_name": "Понте-Прета СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Понте-Прета СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00380": {
+      "id": "team_00380",
+      "canonical_name": "Сан-Бенту СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сан-Бенту СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00381": {
+      "id": "team_00381",
+      "canonical_name": "Гремио Пруденте СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гремио Пруденте СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00382": {
+      "id": "team_00382",
+      "canonical_name": "Танаби СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Танаби СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00383": {
+      "id": "team_00383",
+      "canonical_name": "Итуану СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Итуану СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00384": {
+      "id": "team_00384",
+      "canonical_name": "Референсия СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Референсия СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00385": {
+      "id": "team_00385",
+      "canonical_name": "XV ди Новембру Жау СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "XV ди Новембру Жау СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00386": {
+      "id": "team_00386",
+      "canonical_name": "Капивариано СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Капивариано СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00387": {
+      "id": "team_00387",
+      "canonical_name": "Мауа СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мауа СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00388": {
+      "id": "team_00388",
+      "canonical_name": "Агуа Санта СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Агуа Санта СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00389": {
+      "id": "team_00389",
+      "canonical_name": "Лонг-Айленд Раф Райдерс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лонг-Айленд Раф Райдерс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00390": {
+      "id": "team_00390",
+      "canonical_name": "Мотаун",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мотаун",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00391": {
+      "id": "team_00391",
+      "canonical_name": "Прайд Элит",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Прайд Элит",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00392": {
+      "id": "team_00392",
+      "canonical_name": "Висконсин Конкерорс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Висконсин Конкерорс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00393": {
+      "id": "team_00393",
+      "canonical_name": "Мидлейкс Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мидлейкс Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00394": {
+      "id": "team_00394",
+      "canonical_name": "Вест-Сиэтл Джанкшн",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вест-Сиэтл Джанкшн",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00395": {
+      "id": "team_00395",
+      "canonical_name": "Арсенал",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Арсенал",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00396": {
+      "id": "team_00396",
+      "canonical_name": "Манчестер Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Манчестер Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00397": {
+      "id": "team_00397",
+      "canonical_name": "Атлетико Минейро МЖ (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Атлетико Минейро МЖ (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00398": {
+      "id": "team_00398",
+      "canonical_name": "Уберабинья МЖ (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Уберабинья МЖ (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00399": {
+      "id": "team_00399",
+      "canonical_name": "Бентин Такна Героика",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бентин Такна Героика",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00400": {
+      "id": "team_00400",
+      "canonical_name": "Мельгар",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мельгар",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00401": {
+      "id": "team_00401",
+      "canonical_name": "Насан СК (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Насан СК (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00402": {
+      "id": "team_00402",
+      "canonical_name": "Карлос Рено СК (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Карлос Рено СК (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00403": {
+      "id": "team_00403",
+      "canonical_name": "СК Вальс-Грюнау",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "СК Вальс-Грюнау",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00404": {
+      "id": "team_00404",
+      "canonical_name": "Райхенау",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Райхенау",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00405": {
+      "id": "team_00405",
+      "canonical_name": "Серрадо ГО (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Серрадо ГО (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00406": {
+      "id": "team_00406",
+      "canonical_name": "Анаполис ГО (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Анаполис ГО (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00407": {
+      "id": "team_00407",
+      "canonical_name": "Наньцзин Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Наньцзин Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00408": {
+      "id": "team_00408",
+      "canonical_name": "Нинбо Профешнл",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Нинбо Профешнл",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00409": {
+      "id": "team_00409",
+      "canonical_name": "Цзянси Диннань Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Цзянси Диннань Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00410": {
+      "id": "team_00410",
+      "canonical_name": "Гуандун ГЗ-Пауэр",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гуандун ГЗ-Пауэр",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00411": {
+      "id": "team_00411",
+      "canonical_name": "Шицзячжуан Гунфу",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Шицзячжуан Гунфу",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00412": {
+      "id": "team_00412",
+      "canonical_name": "Сучжоу Донгву",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сучжоу Донгву",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00413": {
+      "id": "team_00413",
+      "canonical_name": "Чанчун Ятай",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Чанчун Ятай",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00414": {
+      "id": "team_00414",
+      "canonical_name": "Далянь Кунь Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Далянь Кунь Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00415": {
+      "id": "team_00415",
+      "canonical_name": "Хелленик Атлетик",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Хелленик Атлетик",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00416": {
+      "id": "team_00416",
+      "canonical_name": "Юниверсити Адзурри",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Юниверсити Адзурри",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00417": {
+      "id": "team_00417",
+      "canonical_name": "Кэролайн Спрингс Джордж Кросс (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кэролайн Спрингс Джордж Кросс (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00418": {
+      "id": "team_00418",
+      "canonical_name": "Данденонг Тандер (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Данденонг Тандер (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00419": {
+      "id": "team_00419",
+      "canonical_name": "Динамо Ческе-Будеёвице (до19)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Динамо Ческе-Будеёвице (до19)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00420": {
+      "id": "team_00420",
+      "canonical_name": "Виктория Пльзень (до19)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Виктория Пльзень (до19)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00421": {
+      "id": "team_00421",
+      "canonical_name": "Лустенау",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лустенау",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00422": {
+      "id": "team_00422",
+      "canonical_name": "ТСВ Санкт-Иоганн",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ТСВ Санкт-Иоганн",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00423": {
+      "id": "team_00423",
+      "canonical_name": "Герасдорф",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Герасдорф",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00424": {
+      "id": "team_00424",
+      "canonical_name": "Винерберг",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Винерберг",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00425": {
+      "id": "team_00425",
+      "canonical_name": "Лангваррин",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лангваррин",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00426": {
+      "id": "team_00426",
+      "canonical_name": "Маннингем Юнайтед Блюз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Маннингем Юнайтед Блюз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00427": {
+      "id": "team_00427",
+      "canonical_name": "Норт Джилонг Уорриорз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Норт Джилонг Уорриорз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00428": {
+      "id": "team_00428",
+      "canonical_name": "Норткот Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Норткот Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00429": {
+      "id": "team_00429",
+      "canonical_name": "Буллин Лайонс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Буллин Лайонс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00430": {
+      "id": "team_00430",
+      "canonical_name": "Мельбурн Виктори (мол)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мельбурн Виктори (мол)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00431": {
+      "id": "team_00431",
+      "canonical_name": "Норт Саншайн Иглз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Норт Саншайн Иглз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00432": {
+      "id": "team_00432",
+      "canonical_name": "Мельбурн Сербия",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мельбурн Сербия",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00433": {
+      "id": "team_00433",
+      "canonical_name": "УВА Недлендс (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "УВА Недлендс (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00434": {
+      "id": "team_00434",
+      "canonical_name": "Флорит Афина (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Флорит Афина (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00435": {
+      "id": "team_00435",
+      "canonical_name": "Джундалуп Сити (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Джундалуп Сити (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00436": {
+      "id": "team_00436",
+      "canonical_name": "Гуэлап Кроэйша (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гуэлап Кроэйша (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00437": {
+      "id": "team_00437",
+      "canonical_name": "Мердок Юниверсити-Мелвилл (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мердок Юниверсити-Мелвилл (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00438": {
+      "id": "team_00438",
+      "canonical_name": "Кокберн Сити (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кокберн Сити (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00439": {
+      "id": "team_00439",
+      "canonical_name": "Кингсли Вестсайд (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кингсли Вестсайд (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00440": {
+      "id": "team_00440",
+      "canonical_name": "Инглвуд Юнайтед (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Инглвуд Юнайтед (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00441": {
+      "id": "team_00441",
+      "canonical_name": "Куиннс (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Куиннс (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00442": {
+      "id": "team_00442",
+      "canonical_name": "Кертин Юниверсити (рез)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Кертин Юниверсити (рез)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00443": {
+      "id": "team_00443",
+      "canonical_name": "Лаутерах",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лаутерах",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00444": {
+      "id": "team_00444",
+      "canonical_name": "Куфштайн",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Куфштайн",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00445": {
+      "id": "team_00445",
+      "canonical_name": "НСИ Рунавик 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "НСИ Рунавик 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00446": {
+      "id": "team_00446",
+      "canonical_name": "ТБ Творойри",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ТБ Творойри",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00447": {
+      "id": "team_00447",
+      "canonical_name": "Сентрал Кост Маринерс (мол)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сентрал Кост Маринерс (мол)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00448": {
+      "id": "team_00448",
+      "canonical_name": "Хакоа Сидней",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Хакоа Сидней",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00449": {
+      "id": "team_00449",
+      "canonical_name": "Рустави",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Рустави",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00450": {
+      "id": "team_00450",
+      "canonical_name": "Мешахте Ткибули",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мешахте Ткибули",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00451": {
+      "id": "team_00451",
+      "canonical_name": "Филкир Рейкьявик",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Филкир Рейкьявик",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00452": {
+      "id": "team_00452",
+      "canonical_name": "Гротта",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гротта",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00453": {
+      "id": "team_00453",
+      "canonical_name": "ФК Пирата",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ФК Пирата",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00454": {
+      "id": "team_00454",
+      "canonical_name": "Университарио Депортес",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Университарио Депортес",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00455": {
+      "id": "team_00455",
+      "canonical_name": "Бавария (Senya)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бавария (Senya)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00456": {
+      "id": "team_00456",
+      "canonical_name": "Ливерпуль (Profik)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ливерпуль (Profik)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00457": {
+      "id": "team_00457",
+      "canonical_name": "Самгурали Цхалтубо",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Самгурали Цхалтубо",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00458": {
+      "id": "team_00458",
+      "canonical_name": "Торпедо Кутаиси",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Торпедо Кутаиси",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00459": {
+      "id": "team_00459",
+      "canonical_name": "Реал М (Sheva)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Реал М (Sheva)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00460": {
+      "id": "team_00460",
+      "canonical_name": "ПСЖ (pimchik)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ПСЖ (pimchik)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00461": {
+      "id": "team_00461",
+      "canonical_name": "Атлетико М (Gula14)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Атлетико М (Gula14)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00462": {
+      "id": "team_00462",
+      "canonical_name": "Малверн Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Малверн Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00463": {
+      "id": "team_00463",
+      "canonical_name": "Эссендон Роялс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Эссендон Роялс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00464": {
+      "id": "team_00464",
+      "canonical_name": "ХБ Торсхавн 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ХБ Торсхавн 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00465": {
+      "id": "team_00465",
+      "canonical_name": "Сувурой",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сувурой",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00466": {
+      "id": "team_00466",
+      "canonical_name": "Гоулберн Вэлли Санс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гоулберн Вэлли Санс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00467": {
+      "id": "team_00467",
+      "canonical_name": "Истерн Лайонс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Истерн Лайонс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00468": {
+      "id": "team_00468",
+      "canonical_name": "Норт Джилонг Уорриорз (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Норт Джилонг Уорриорз (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00469": {
+      "id": "team_00469",
+      "canonical_name": "Норткот Сити (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Норткот Сити (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00470": {
+      "id": "team_00470",
+      "canonical_name": "Б-36 Торсхавн 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Б-36 Торсхавн 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00471": {
+      "id": "team_00471",
+      "canonical_name": "Фуглафьордур",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Фуглафьордур",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00472": {
+      "id": "team_00472",
+      "canonical_name": "Бэйсайд Аргонаутс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бэйсайд Аргонаутс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00473": {
+      "id": "team_00473",
+      "canonical_name": "Бокс Хилл Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бокс Хилл Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00474": {
+      "id": "team_00474",
+      "canonical_name": "Ниттаидай (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ниттаидай (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00475": {
+      "id": "team_00475",
+      "canonical_name": "Сидзуока ССУ Бонита (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сидзуока ССУ Бонита (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00476": {
+      "id": "team_00476",
+      "canonical_name": "Иокогама Сигалз (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Иокогама Сигалз (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00477": {
+      "id": "team_00477",
+      "canonical_name": "Виаматерасу Миядзаки (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Виаматерасу Миядзаки (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00478": {
+      "id": "team_00478",
+      "canonical_name": "Орка Камогава (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Орка Камогава (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00479": {
+      "id": "team_00479",
+      "canonical_name": "Эхиме (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Эхиме (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00480": {
+      "id": "team_00480",
+      "canonical_name": "Аделаида Кобрас",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Кобрас",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00481": {
+      "id": "team_00481",
+      "canonical_name": "Камберланд Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Камберланд Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00482": {
+      "id": "team_00482",
+      "canonical_name": "Аделаида Кроэйша Райдерс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Кроэйша Райдерс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00483": {
+      "id": "team_00483",
+      "canonical_name": "Саут Аделаида",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Саут Аделаида",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00484": {
+      "id": "team_00484",
+      "canonical_name": "Фрам (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Фрам (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00485": {
+      "id": "team_00485",
+      "canonical_name": "Гриндавик/Ньярдвик (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гриндавик/Ньярдвик (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00486": {
+      "id": "team_00486",
+      "canonical_name": "Троуттюр Рейкьявик (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Троуттюр Рейкьявик (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00487": {
+      "id": "team_00487",
+      "canonical_name": "Вестманнаэйяр (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Вестманнаэйяр (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00488": {
+      "id": "team_00488",
+      "canonical_name": "Брейдаблик (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Брейдаблик (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00489": {
+      "id": "team_00489",
+      "canonical_name": "Стьярнан (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Стьярнан (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00490": {
+      "id": "team_00490",
+      "canonical_name": "Викингур Рекьявик (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Викингур Рекьявик (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00491": {
+      "id": "team_00491",
+      "canonical_name": "Хабнарфьордюр (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Хабнарфьордюр (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00492": {
+      "id": "team_00492",
+      "canonical_name": "Флора Таллин (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Флора Таллин (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00493": {
+      "id": "team_00493",
+      "canonical_name": "Харью Лаагри (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Харью Лаагри (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00494": {
+      "id": "team_00494",
+      "canonical_name": "Аделаида Блю Иглз",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аделаида Блю Иглз",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00495": {
+      "id": "team_00495",
+      "canonical_name": "Солсбери Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Солсбери Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00496": {
+      "id": "team_00496",
+      "canonical_name": "Валюр Рейкьявик (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Валюр Рейкьявик (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00497": {
+      "id": "team_00497",
+      "canonical_name": "Тор/КА (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Тор/КА (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00498": {
+      "id": "team_00498",
+      "canonical_name": "Чханнён (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Чханнён (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00499": {
+      "id": "team_00499",
+      "canonical_name": "Сеул Сити (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Сеул Сити (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00500": {
+      "id": "team_00500",
+      "canonical_name": "Аль-Тадамон",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аль-Тадамон",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00501": {
+      "id": "team_00501",
+      "canonical_name": "Аль-Фехахил",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аль-Фехахил",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00502": {
+      "id": "team_00502",
+      "canonical_name": "Испания (malverz)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Испания (malverz)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00503": {
+      "id": "team_00503",
+      "canonical_name": "Аргентина (Paka)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аргентина (Paka)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00504": {
+      "id": "team_00504",
+      "canonical_name": "Бирмингем Легион (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бирмингем Легион (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00505": {
+      "id": "team_00505",
+      "canonical_name": "Уан Ноксвилл (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Уан Ноксвилл (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00506": {
+      "id": "team_00506",
+      "canonical_name": "Аль-Араби Кувейт",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аль-Араби Кувейт",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00507": {
+      "id": "team_00507",
+      "canonical_name": "Аль-Кадсия",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Аль-Кадсия",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00508": {
+      "id": "team_00508",
+      "canonical_name": "Голд-Кост Юнайтед",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Голд-Кост Юнайтед",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00509": {
+      "id": "team_00509",
+      "canonical_name": "Брисбен Сити",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Брисбен Сити",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00510": {
+      "id": "team_00510",
+      "canonical_name": "Метта/ЛУ",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Метта/ЛУ",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00511": {
+      "id": "team_00511",
+      "canonical_name": "Супер Нова 2",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Супер Нова 2",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00512": {
+      "id": "team_00512",
+      "canonical_name": "ЮДФК Альбертс",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ЮДФК Альбертс",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00513": {
+      "id": "team_00513",
+      "canonical_name": "Салдус/Ливон",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Салдус/Ливон",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00514": {
+      "id": "team_00514",
+      "canonical_name": "Жувентус СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Жувентус СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00515": {
+      "id": "team_00515",
+      "canonical_name": "Мирассол СП (до20)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Мирассол СП (до20)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00516": {
+      "id": "team_00516",
+      "canonical_name": "Бриндабелла Блюз (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бриндабелла Блюз (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00517": {
+      "id": "team_00517",
+      "canonical_name": "Белконнен Юнайтед (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Белконнен Юнайтед (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00518": {
+      "id": "team_00518",
+      "canonical_name": "Канберра Ювентус (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Канберра Ювентус (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00519": {
+      "id": "team_00519",
+      "canonical_name": "Тайгерс (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Тайгерс (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00520": {
+      "id": "team_00520",
+      "canonical_name": "О'Коннор Найтс (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "О'Коннор Найтс (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00521": {
+      "id": "team_00521",
+      "canonical_name": "Таггеранонг Юнайтед (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Таггеранонг Юнайтед (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00522": {
+      "id": "team_00522",
+      "canonical_name": "Куинбиан Сити (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Куинбиан Сити (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00523": {
+      "id": "team_00523",
+      "canonical_name": "Монаро Пантерс (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Монаро Пантерс (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00524": {
+      "id": "team_00524",
+      "canonical_name": "Канберра Уайт Иглз (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Канберра Уайт Иглз (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00525": {
+      "id": "team_00525",
+      "canonical_name": "Канберра Кроэйша (до23)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Канберра Кроэйша (до23)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00526": {
+      "id": "team_00526",
+      "canonical_name": "Лонсестон Сити (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лонсестон Сити (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00527": {
+      "id": "team_00527",
+      "canonical_name": "Таруна (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Таруна (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00528": {
+      "id": "team_00528",
+      "canonical_name": "ПСЖ (Hyper)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ПСЖ (Hyper)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00529": {
+      "id": "team_00529",
+      "canonical_name": "Марсель (Ganger_29)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Марсель (Ganger_29)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00530": {
+      "id": "team_00530",
+      "canonical_name": "Атлетико М (deroll)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Атлетико М (deroll)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00531": {
+      "id": "team_00531",
+      "canonical_name": "ПСЖ (v1nniePuh)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "ПСЖ (v1nniePuh)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00532": {
+      "id": "team_00532",
+      "canonical_name": "Бавария (Exhausted)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бавария (Exhausted)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00533": {
+      "id": "team_00533",
+      "canonical_name": "Реал Мадрид (Why)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Реал Мадрид (Why)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00534": {
+      "id": "team_00534",
+      "canonical_name": "Саут Хобарт (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Саут Хобарт (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00535": {
+      "id": "team_00535",
+      "canonical_name": "Девонпорт Сити Страйкерс (ж)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Девонпорт Сити Страйкерс (ж)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00536": {
+      "id": "team_00536",
+      "canonical_name": "Монако (Pavlinho19)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Монако (Pavlinho19)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00537": {
+      "id": "team_00537",
+      "canonical_name": "Бохум (люб)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Бохум (люб)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00538": {
+      "id": "team_00538",
+      "canonical_name": "Боруссия М (люб)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Боруссия М (люб)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00539": {
+      "id": "team_00539",
+      "canonical_name": "Ницца (KaLuBa)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Ницца (KaLuBa)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00540": {
+      "id": "team_00540",
+      "canonical_name": "Лион (Sef)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Лион (Sef)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00541": {
+      "id": "team_00541",
+      "canonical_name": "Гамбург (люб)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Гамбург (люб)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00542": {
+      "id": "team_00542",
+      "canonical_name": "Шальке (люб)",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Шальке (люб)",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00543": {
+      "id": "team_00543",
+      "canonical_name": "Атлантис/ПМ",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Атлантис/ПМ",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00544": {
+      "id": "team_00544",
+      "canonical_name": "МПС/Атлетико Малми",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "МПС/Атлетико Малми",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00545": {
+      "id": "team_00545",
+      "canonical_name": "Тайфун",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Тайфун",
+        "fonbet": null,
+        "betera": null
+      }
+    },
+    "team_00546": {
+      "id": "team_00546",
+      "canonical_name": "Центурион",
+      "sport": "football",
+      "notes": "",
+      "names": {
+        "winline": "Центурион",
+        "fonbet": null,
+        "betera": null
+      }
+    }
+  }
+}

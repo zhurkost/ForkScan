@@ -17,6 +17,7 @@ venv/
 # Data (raw logs, cached events)
 data/*
 !data/.gitkeep
+!data/teams.json
 *.bin
 *network_log*.json
 *events_parsed*.json
