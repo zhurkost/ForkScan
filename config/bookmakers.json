@@ -1,0 +1,25 @@
+{
+  "primary": "winline",
+  "bookmakers": {
+    "winline": {
+      "name": "Winline",
+      "base_url": "https://winline.by",
+      "sport_url": "https://winline.by/sport/149",
+      "api_http": "https://winline.by/api",
+      "sportsbook_api": "https://winline.by/sb/api",
+      "sportsbook_key": "37c6d9eb5eaf0bc718df184cf0307fda",
+      "sportsbook_user": "winlineby",
+      "sportsbook_binary": "https://winline.by/cormache",
+      "sportsbook_binary_version": 3
+    },
+    "fonbet": {
+      "name": "Fonbet",
+      "base_url": "https://fonbet.by",
+      "resources_domain": "by0e87-resources.by"
+    },
+    "betera": {
+      "name": "Betera",
+      "base_url": "https://betera.by"
+    }
+  }
+}
