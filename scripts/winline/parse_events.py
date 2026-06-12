@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 
-PARALLEL_WORKERS = 10  # change to adjust concurrency
+PARALLEL_WORKERS = 1  # set >1 for parallel (HTTP rate-limits apply)
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))

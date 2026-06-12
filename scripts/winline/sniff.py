@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from playwright.sync_api import sync_playwright
 
-PARALLEL_BROWSERS = 10  # change to adjust concurrency
+PARALLEL_BROWSERS = 1  # set >1 for parallel (may lose events)
 
 CONFIG_PATH = Path(__file__).resolve().parents[2] / "config" / "bookmakers.json"
 BASE_DIR = Path(__file__).resolve().parent
