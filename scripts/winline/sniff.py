@@ -16,8 +16,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from playwright.sync_api import sync_playwright
 
 PARALLEL_BROWSERS = 1     # set >1 for parallel (may lose events at high concurrency)
-SCROLL_PASSES = 60        # max scroll iterations
-SCROLL_SLEEP = 0.8        # seconds between scrolls
+SCROLL_PASSES = 160        # max scroll iterations
+SCROLL_SLEEP = 1.8        # seconds between scrolls
 SCROLL_STUCK_LIMIT = 10   # consecutive no-new-requests before giving up
 
 CONFIG_PATH = Path(__file__).resolve().parents[2] / "config" / "bookmakers.json"
@@ -159,6 +159,14 @@ def _sniff_sport(sport_id, sport_cfg, sport_name, sport_url, name_ru, headless):
                 stuck = 0
                 bounced = False
             last_count = current
+
+            if i % 10 == 0:
+                info = page.evaluate("""() => {
+                    const s = document.scrollingElement || document.documentElement;
+                    return {pct: Math.round(s.scrollTop / Math.max(s.scrollHeight,1) * 100), h: s.scrollHeight};
+                }""")
+                print(f"  scroll {i+1}/{SCROLL_PASSES}, requests: {current}, "
+                      f"pos={info['pct']}% h={info['h']}")
 
         page.wait_for_timeout(3_000)
 
