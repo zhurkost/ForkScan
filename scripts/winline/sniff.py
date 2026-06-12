@@ -15,8 +15,8 @@ from datetime import datetime, timezone
 from playwright.sync_api import sync_playwright
 
 SCROLL_PASSES = 40        # max scroll iterations
-SCROLL_SLEEP = 0.8        # seconds between scrolls
-SCROLL_STUCK_LIMIT = 10   # consecutive no-new-requests before giving up
+SCROLL_SLEEP = 1.0      # seconds between scrolls
+SCROLL_STUCK_LIMIT = 6   # consecutive no-new-requests before giving up
 
 CONFIG_PATH = Path(__file__).resolve().parents[2] / "config" / "bookmakers.json"
 BASE_DIR = Path(__file__).resolve().parent
@@ -123,40 +123,27 @@ def sniff_sport(sport_id: str, sport_cfg: dict, headless: bool):
         page.wait_for_timeout(5_000)
         dismiss_popups(page)
 
-        # Scroll to trigger lazy-load
+        # Scroll to trigger lazy-load — go to absolute bottom each time
         print(f"[sniff:{sport_name}] Scrolling...")
-        last_count = 0
+        last_height = 0
         stuck = 0
-        bounced = False
         for i in range(SCROLL_PASSES):
-            page.evaluate("window.scrollBy(0, 800)")
+            height_before = page.evaluate("document.body.scrollHeight")
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
             time.sleep(SCROLL_SLEEP)
-            current = len(log["requests"])
-            if current == last_count:
+            height_after = page.evaluate("document.body.scrollHeight")
+
+            if height_after == last_height:
                 stuck += 1
                 if stuck >= SCROLL_STUCK_LIMIT:
-                    if not bounced:
-                        # Bounce up then down to trigger more lazy-load
-                        page.evaluate("window.scrollBy(0, -2000)")
-                        time.sleep(0.5)
-                        page.evaluate("window.scrollBy(0, 2000)")
-                        time.sleep(1.0)
-                        stuck = 0
-                        bounced = True
-                    else:
-                        break
+                    break
             else:
                 stuck = 0
-                bounced = False
-            last_count = current
+            last_height = height_after
 
             if i % 10 == 0:
-                info = page.evaluate("""() => {
-                    const s = document.scrollingElement || document.documentElement;
-                    return {pct: Math.round(s.scrollTop / Math.max(s.scrollHeight,1) * 100), h: s.scrollHeight};
-                }""")
-                print(f"  scroll {i+1}/{SCROLL_PASSES}, requests: {current}, "
-                      f"pos={info['pct']}% h={info['h']}")
+                print(f"  scroll {i+1}/{SCROLL_PASSES}, height={height_after}, "
+                      f"requests={len(log['requests'])}")
 
         page.wait_for_timeout(3_000)
 
