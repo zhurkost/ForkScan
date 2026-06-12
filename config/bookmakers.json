@@ -15,7 +15,13 @@
     "fonbet": {
       "name": "Fonbet",
       "base_url": "https://fonbet.by",
-      "resources_domain": "by0e87-resources.by"
+      "resources_domain": "by0e87-resources.by",
+      "urls_json": "https://fonbet.by/urls.json",
+      "api_domains": {
+        "line": ["line11.by0e87-resources.by", "line12.by0e87-resources.by", "line21.by0e87-resources.by", "line22.by0e87-resources.by"],
+        "common": ["clientsapi11.by0e87-resources.by", "clientsapi12.by0e87-resources.by", "clientsapi21.by0e87-resources.by", "clientsapi22.by0e87-resources.by"],
+        "common_api": "fastviewdata.by0e87-resources.by"
+      }
     },
     "betera": {
       "name": "Betera",
