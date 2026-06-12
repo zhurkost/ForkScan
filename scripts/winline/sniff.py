@@ -90,9 +90,10 @@ def sniff_sport(sport_id: str, sport_cfg: dict, headless: bool):
     name_ru = sport_cfg.get("name_ru", sport_name)
 
     try:
-        _sniff_sport(sport_id, sport_cfg, sport_name, sport_url, name_ru, headless)
+        return _sniff_sport(sport_id, sport_cfg, sport_name, sport_url, name_ru, headless)
     except Exception as e:
         print(f"[sniff:{sport_name}] FAILED: {e}")
+        return 0
 
 
 def _sniff_sport(sport_id, sport_cfg, sport_name, sport_url, name_ru, headless):
@@ -172,6 +173,7 @@ def _sniff_sport(sport_id, sport_cfg, sport_name, sport_url, name_ru, headless):
     }
     ids_path.write_text(json.dumps(ids_data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[sniff:{sport_name}] Saved -> {ids_path.name}")
+    return len(event_ids)
 
 
 def get_sports(config, filter_ids=None):
@@ -201,14 +203,17 @@ def main():
         return
 
     print(f"Sniffing {len(sports)} sport(s), headless={headless}, parallel={PARALLEL_BROWSERS}")
+    total_ids = 0
     with ThreadPoolExecutor(max_workers=PARALLEL_BROWSERS) as executor:
         futures = {executor.submit(sniff_sport, sid, cfg, headless): sid for sid, cfg in sports}
         for future in as_completed(futures):
             sid = futures[future]
             try:
-                future.result()
+                total_ids += future.result()
             except Exception:
                 pass  # logged inside sniff_sport
+
+    print(f"\n[sniff] TOTAL: {total_ids} event IDs across {len(sports)} sports")
 
 
 if __name__ == "__main__":

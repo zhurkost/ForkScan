@@ -210,6 +210,8 @@ def parse_sport(ids_file, sport_name, sport_id=None):
     stats = import_from_bookmaker("winline", teams_list)
     print(f"Teams: {stats['new']} new, {stats['cross_matched']} cross-matched, {stats['existing']} already known")
 
+    return len(events)
+
 
 def main():
     # Clean up old parsed events — each run is fresh
@@ -245,21 +247,25 @@ def main():
         return
 
     print(f"Parsing {len(files)} sport(s), parallel={PARALLEL_WORKERS}")
+    total_events = 0
     with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as executor:
         futures = {executor.submit(_parse_safe, ids_file, sport_name): sport_name
                    for ids_file, sport_name in files}
         for future in as_completed(futures):
             try:
-                future.result()
+                total_events += future.result()
             except Exception:
-                pass  # logged in _parse_safe
+                pass
+
+    print(f"\n[parser] TOTAL: {total_events} events across {len(files)} sports")
 
 
 def _parse_safe(ids_file, sport_name):
     try:
-        parse_sport(ids_file, sport_name)
+        return parse_sport(ids_file, sport_name)
     except Exception as e:
         print(f"  [{sport_name}] FAILED: {e}")
+        return 0
 
 
 if __name__ == "__main__":
