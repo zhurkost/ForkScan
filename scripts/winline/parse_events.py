@@ -12,10 +12,8 @@ import sys
 import time
 from pathlib import Path
 from datetime import datetime, timezone
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 
-PARALLEL_WORKERS = 1       # set >1 for parallel (HTTP rate-limits apply)
 REQUEST_DELAY = 0.12       # seconds between POST requests
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -247,26 +245,15 @@ def main():
             print(f"Check that event_ids_{filter_name}.json exists (run sniff.py first).")
         return
 
-    print(f"Parsing {len(files)} sport(s), parallel={PARALLEL_WORKERS}")
+    print(f"Parsing {len(files)} sport(s)")
     total_events = 0
-    with ThreadPoolExecutor(max_workers=PARALLEL_WORKERS) as executor:
-        futures = {executor.submit(_parse_safe, ids_file, sport_name): sport_name
-                   for ids_file, sport_name in files}
-        for future in as_completed(futures):
-            try:
-                total_events += future.result()
-            except Exception:
-                pass
+    for ids_file, sport_name in files:
+        try:
+            total_events += parse_sport(ids_file, sport_name)
+        except Exception as e:
+            print(f"  [{sport_name}] FAILED: {e}")
 
     print(f"\n[parser] TOTAL: {total_events} events across {len(files)} sports")
-
-
-def _parse_safe(ids_file, sport_name):
-    try:
-        return parse_sport(ids_file, sport_name)
-    except Exception as e:
-        print(f"  [{sport_name}] FAILED: {e}")
-        return 0
 
 
 if __name__ == "__main__":

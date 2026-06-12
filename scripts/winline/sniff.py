@@ -12,12 +12,10 @@ import sys
 import time
 from pathlib import Path
 from datetime import datetime, timezone
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from playwright.sync_api import sync_playwright
 
-PARALLEL_BROWSERS = 1     # set >1 for parallel (may lose events at high concurrency)
-SCROLL_PASSES = 160        # max scroll iterations
-SCROLL_SLEEP = 1.8        # seconds between scrolls
+SCROLL_PASSES = 40        # max scroll iterations
+SCROLL_SLEEP = 0.8        # seconds between scrolls
 SCROLL_STUCK_LIMIT = 10   # consecutive no-new-requests before giving up
 
 CONFIG_PATH = Path(__file__).resolve().parents[2] / "config" / "bookmakers.json"
@@ -92,14 +90,6 @@ def sniff_sport(sport_id: str, sport_cfg: dict, headless: bool):
     sport_url = sport_cfg.get("url") or f"https://winline.by/sport/{sport_id}"
     name_ru = sport_cfg.get("name_ru", sport_name)
 
-    try:
-        return _sniff_sport(sport_id, sport_cfg, sport_name, sport_url, name_ru, headless)
-    except Exception as e:
-        print(f"[sniff:{sport_name}] FAILED: {e}")
-        return 0
-
-
-def _sniff_sport(sport_id, sport_cfg, sport_name, sport_url, name_ru, headless):
     print(f"[sniff:{sport_name}] {name_ru} -> {sport_url}")
 
     log = {"requests": [], "responses": []}
@@ -224,16 +214,10 @@ def main():
         print("No sports found.")
         return
 
-    print(f"Sniffing {len(sports)} sport(s), headless={headless}, parallel={PARALLEL_BROWSERS}")
+    print(f"Sniffing {len(sports)} sport(s), headless={headless}")
     total_ids = 0
-    with ThreadPoolExecutor(max_workers=PARALLEL_BROWSERS) as executor:
-        futures = {executor.submit(sniff_sport, sid, cfg, headless): sid for sid, cfg in sports}
-        for future in as_completed(futures):
-            sid = futures[future]
-            try:
-                total_ids += future.result()
-            except Exception:
-                pass  # logged inside sniff_sport
+    for sid, cfg in sports:
+        total_ids += sniff_sport(sid, cfg, headless)
 
     print(f"\n[sniff] TOTAL: {total_ids} event IDs across {len(sports)} sports")
 
