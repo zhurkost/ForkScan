@@ -2,7 +2,8 @@
 partial_ai_resolver.py
 Evaluates each pair (wl_home↔fb_home, wl_away↔fb_away) ONE BY ONE via local Qwen.
 Not batched, not chunked — every pair is its own model call.
-Always runs from 0. No resume, no backup — each cycle is fresh.
+Skips records that already have result=true/false (resumable).
+Saves progress to disk every 50 records.
 """
 import json
 import os
@@ -77,6 +78,16 @@ def ask_same_team(model, tokenizer, name1, name2):
         return name1.strip().lower() == name2.strip().lower()
 
 
+def _is_resolved(rec):
+    """True if result is already a boolean (previously processed)."""
+    return isinstance(rec.get('result'), bool)
+
+
+def _save(data):
+    with open(INPUT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
 def main():
     print(f"Reading {INPUT_FILE}...")
     with open(INPUT_FILE, 'r', encoding='utf-8') as f:
@@ -84,16 +95,30 @@ def main():
 
     partials = data['partials']
     total = len(partials)
-    print(f"Loaded {total} records")
+    already = sum(1 for p in partials if _is_resolved(p))
+    todo = total - already
+    print(f"Loaded {total} records ({already} already resolved, {todo} to process)")
 
     model, tokenizer = build_model()
 
     true_count = 0
     false_count = 0
+    skipped_count = 0
     t_start = time.time()
 
     for i in range(total):
         rec = partials[i]
+
+        if _is_resolved(rec):
+            skipped_count += 1
+            done = i + 1
+            if done % 50 == 0:
+                elapsed = time.time() - t_start
+                rate = elapsed / max(done - skipped_count, 1)
+                eta_sec = rate * (todo - (true_count + false_count))
+                print(f"  [{done}/{total}] true={true_count} false={false_count} "
+                      f"skipped={skipped_count} | {rate:.1f}s/rec | ETA {eta_sec/60:.0f}min")
+            continue
 
         # Pair 1: home teams
         home_same = ask_same_team(model, tokenizer, rec['wl_home'], rec['fb_home'])
@@ -111,21 +136,24 @@ def main():
 
         done = i + 1
         if done % 50 == 0:
+            _save(data)
             elapsed = time.time() - t_start
-            rate = elapsed / done
-            eta_sec = rate * (total - done)
+            processed = true_count + false_count
+            rate = elapsed / max(processed, 1)
+            eta_sec = rate * (todo - processed)
             print(f"  [{done}/{total}] true={true_count} false={false_count} "
-                  f"| {rate:.1f}s/rec | ETA {eta_sec/60:.0f}min")
+                  f"skipped={skipped_count} | {rate:.1f}s/rec | ETA {eta_sec/60:.0f}min | saved")
 
-    print(f"\nWriting results to {INPUT_FILE}...")
-    with open(INPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    # Final save
+    print(f"\nWriting final results to {INPUT_FILE}...")
+    _save(data)
 
     elapsed_min = (time.time() - t_start) / 60
     print(f"\n{'='*60}")
     print(f"DONE: {total} records in {elapsed_min:.1f} min")
     print(f"  result=true:  {true_count}")
     print(f"  result=false: {false_count}")
+    print(f"  skipped:      {skipped_count}")
     print(f"{'='*60}")
 
 

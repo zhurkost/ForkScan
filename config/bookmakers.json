@@ -89,6 +89,41 @@
     "betera": {
       "name": "Betera",
       "base_url": "https://betera.by"
+    },
+    "fonbetRU": {
+      "name": "Fonbet RU",
+      "base_url": "https://fonbet.ru",
+      "resources_domain": "bkfon-resources.com",
+      "urls_json": "https://fonbet.ru/urls.json",
+      "api_domains": {
+        "line": ["line11.bkfon-resources.com", "line12.bkfon-resources.com", "line21.bkfon-resources.com", "line22.bkfon-resources.com"],
+        "common": ["clientsapi11.bkfon-resources.com", "clientsapi12.bkfon-resources.com", "clientsapi21.bkfon-resources.com", "clientsapi22.bkfon-resources.com"],
+        "common_api": "fastviewdata.bkfon-resources.com"
+      },
+      "sports": {
+        "1":     {"name": "football",           "name_ru": "Футбол"},
+        "2":     {"name": "hockey",             "name_ru": "Хоккей"},
+        "3":     {"name": "basketball",         "name_ru": "Баскетбол"},
+        "4":     {"name": "tennis",             "name_ru": "Теннис"},
+        "9":     {"name": "volleyball",         "name_ru": "Волейбол"},
+        "3088":  {"name": "table-tennis",       "name_ru": "Настольный теннис"},
+        "29086": {"name": "esports",            "name_ru": "Киберспорт"},
+        "1436":  {"name": "boxing",             "name_ru": "Бокс"},
+        "1434":  {"name": "futsal",             "name_ru": "Футзал"},
+        "16":    {"name": "rugby",              "name_ru": "Регби"},
+        "8":     {"name": "handball",           "name_ru": "Гандбол"},
+        "5":     {"name": "baseball",           "name_ru": "Бейсбол"},
+        "6":     {"name": "american-football",  "name_ru": "Американский футбол"},
+        "1219":  {"name": "water-polo",         "name_ru": "Водное поло"},
+        "1439":  {"name": "field-hockey",       "name_ru": "Хоккей на траве"},
+        "11630": {"name": "badminton",          "name_ru": "Бадминтон"},
+        "11632": {"name": "darts",              "name_ru": "Дартс"},
+        "11634": {"name": "cricket",            "name_ru": "Крикет"},
+        "11625": {"name": "beach-soccer",       "name_ru": "Пляжный футбол"},
+        "11624": {"name": "beach-volley",       "name_ru": "Пляжный волейбол"},
+        "1891":  {"name": "cycling",            "name_ru": "Велоспорт"},
+        "37145": {"name": "mix-fights",         "name_ru": "Единоборства"}
+      }
     }
   }
 }

@@ -14,8 +14,8 @@ from pathlib import Path
 from datetime import datetime, timezone
 from playwright.sync_api import sync_playwright
 
-SCROLL_PASSES = 40        # max scroll iterations
-SCROLL_SLEEP = 1.0      # seconds between scrolls
+SCROLL_PASSES = 60        # max scroll iterations
+SCROLL_SLEEP = 0.5      # seconds between scrolls
 SCROLL_STUCK_LIMIT = 6   # consecutive no-new-requests before giving up
 
 CONFIG_PATH = Path(__file__).resolve().parents[2] / "config" / "bookmakers.json"

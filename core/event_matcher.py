@@ -231,7 +231,7 @@ def match_and_crosslink(sport_filter: str | None = None):
                 hm = _names_match(wl_ev["home"], fb_ev["home"])
                 am = _names_match(wl_ev["away"], fb_ev["away"])
                 partial_matches.append({
-                    "result": False,
+                    "result": "",
                     "sport": sport,
                     "scheduled": ts,
                     "wl_event_id": wl_ev["event_id"],
@@ -318,7 +318,7 @@ def _crosslink_teams(teams: dict, wl_name: str, fb_name: str, sport: str) -> Non
 
     if wl_id and fb_id and wl_id != fb_id:
         teams["teams"][wl_id]["names"]["fonbet"] = fb_name
-        for bk in ["winline", "fonbet", "betera"]:
+        for bk in ["winline", "fonbet", "fonbetRU", "betera"]:
             if teams["teams"][fb_id]["names"].get(bk) and not teams["teams"][wl_id]["names"].get(bk):
                 teams["teams"][wl_id]["names"][bk] = teams["teams"][fb_id]["names"][bk]
         if len(fb_name) > len(teams["teams"][wl_id]["canonical_name"]):
@@ -345,7 +345,7 @@ def _crosslink_teams(teams: dict, wl_name: str, fb_name: str, sport: str) -> Non
         "canonical_name": wl_name if len(wl_name) >= len(fb_name) else fb_name,
         "sport": sport,
         "notes": "",
-        "names": {"winline": wl_name, "fonbet": fb_name, "betera": None},
+        "names": {"winline": wl_name, "fonbet": fb_name, "fonbetRU": None, "betera": None},
     }
 
 

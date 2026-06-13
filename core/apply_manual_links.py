@@ -62,7 +62,7 @@ def apply():
             if wl_id and fb_id and wl_id != fb_id:
                 # Merge fb_id into wl_id
                 teams["teams"][wl_id]["names"]["fonbet"] = fb_name
-                for bk in ["winline", "fonbet", "betera"]:
+                for bk in ["winline", "fonbet", "fonbetRU", "betera"]:
                     if teams["teams"][fb_id]["names"].get(bk) and not teams["teams"][wl_id]["names"].get(bk):
                         teams["teams"][wl_id]["names"][bk] = teams["teams"][fb_id]["names"][bk]
                 del teams["teams"][fb_id]
@@ -88,7 +88,7 @@ def apply():
                 "canonical_name": wl_name if len(wl_name) >= len(fb_name) else fb_name,
                 "sport": sport,
                 "notes": "",
-                "names": {"winline": wl_name, "fonbet": fb_name, "betera": None},
+                "names": {"winline": wl_name, "fonbet": fb_name, "fonbetRU": None, "betera": None},
             }
             applied += 1
 

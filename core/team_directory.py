@@ -91,7 +91,7 @@ def list_teams(sport: str | None = None) -> list[dict]:
 def export_mapping() -> dict:
     data = load_teams()
     mapping = {}
-    for bookmaker in ["winline", "fonbet", "betera"]:
+    for bookmaker in ["winline", "fonbet", "fonbetRU", "betera"]:
         mapping[bookmaker] = {}
         for team in data["teams"].values():
             name = team["names"].get(bookmaker)
@@ -158,6 +158,7 @@ def import_from_bookmaker(bookmaker: str, teams_data: list[dict]) -> dict:
             "names": {
                 "winline": None,
                 "fonbet": None,
+                "fonbetRU": None,
                 "betera": None,
             },
         }

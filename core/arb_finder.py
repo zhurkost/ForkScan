@@ -349,8 +349,9 @@ def match_and_find_arbs(sport_filter: str | None = None):
     if arbs:
         print(f"\n  Top 10 arbs:")
         for a in arbs[:10]:
-            from datetime import datetime as dt_d
-            date_str = dt_d.utcfromtimestamp(a['scheduled']).strftime('%d%m%y')
+            from datetime import datetime as dt_d, timedelta
+            local_tz = timezone(timedelta(hours=3))
+            date_str = dt_d.fromtimestamp(a['scheduled'], tz=local_tz).strftime('%d%m%y %H:%M')
             src = a['best_sources']
             odds = a['best_odds']
             if odds['x'] is not None:
